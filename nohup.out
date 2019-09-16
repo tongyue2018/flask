@@ -1,0 +1,380 @@
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Usage: flask run [OPTIONS]
+
+Error: Could not locate a Flask application. You did not provide the "FLASK_APP" environment variable, and a "wsgi.py" or "app.py" module was not found in the current directory.
+ * Serving Flask app "hello" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 701-819-767
+113.91.148.115 - - [02/Jul/2019 16:01:13] "GET / HTTP/1.1" 200 -
+ * Detected change in '/myWeb/flask/hello.py', reloading
+ * Restarting with stat
+  File "/myWeb/flask/hello.py", line 19
+    'passwd',passwd
+            ^
+SyntaxError: invalid syntax
+ * Serving Flask app "hello" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 701-819-767
+113.91.148.115 - - [02/Jul/2019 16:27:21] "GET /login?username=a HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 15, in login
+    username = request.form['username']
+NameError: name 'request' is not defined
+113.91.148.115 - - [02/Jul/2019 16:27:21] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:27:21] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:27:21] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:27:21] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:27:21] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:27:21] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:31:09] "GET /login?username=a&passwd=b HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 15, in login
+    username = request.form['username']
+NameError: name 'request' is not defined
+113.91.148.115 - - [02/Jul/2019 16:31:10] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:31:10] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:31:10] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:31:10] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:31:10] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/myWeb/flask/hello.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/myWeb/flask/hello.py", line 3, in <module>
+    import json,request
+ModuleNotFoundError: No module named 'request'
+ * Serving Flask app "hello" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 701-819-767
+113.91.148.115 - - [02/Jul/2019 16:35:51] "GET /login?username=a&passwd=b HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 15, in login
+    username = request.form['username']
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.HTTPException.wrap.<locals>.newcls: 400 Bad Request: KeyError: 'username'
+113.91.148.115 - - [02/Jul/2019 16:35:54] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:35:54] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:35:55] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:36:00] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:36:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.151.178.166 - - [02/Jul/2019 16:38:44] "GET /login HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 15, in login
+    username = request.form['username']
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.HTTPException.wrap.<locals>.newcls: 400 Bad Request: KeyError: 'username'
+61.151.178.166 - - [02/Jul/2019 16:39:15] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+61.151.178.166 - - [02/Jul/2019 16:40:25] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ * Detected change in '/myWeb/flask/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 701-819-767
+ * Serving Flask app "hello" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "hello.py", line 29, in <module>
+    app.run(debug=True,host='0.0.0.0', port=5000)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 943, in run
+    run_simple(host, port, self, **options)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/werkzeug/serving.py", line 968, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+113.91.148.115 - - [02/Jul/2019 16:45:48] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:10] "GET /login?username=a HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 20, in login
+    passwd = request.args['passwd']
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.HTTPException.wrap.<locals>.newcls: 400 Bad Request: KeyError: 'passwd'
+113.91.148.115 - - [02/Jul/2019 16:46:10] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:10] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:10] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:10] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:10] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:12] "GET /login?username=a HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 20, in login
+    passwd = request.args['passwd']
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.HTTPException.wrap.<locals>.newcls: 400 Bad Request: KeyError: 'passwd'
+113.91.148.115 - - [02/Jul/2019 16:46:12] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:12] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:12] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:12] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:46:12] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ * Detected change in '/myWeb/flask/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 701-819-767
+113.91.148.115 - - [02/Jul/2019 16:53:55] "GET /login?username=a HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 20, in login
+    passwd = request.args['passwd']
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.HTTPException.wrap.<locals>.newcls: 400 Bad Request: KeyError: 'passwd'
+113.91.148.115 - - [02/Jul/2019 16:53:55] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:53:55] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:53:55] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:53:56] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:53:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+101.91.60.107 - - [02/Jul/2019 16:57:44] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:58:41] "POST /login?username=a&passwd=b HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 16, in login
+    username = request.form['username']
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.HTTPException.wrap.<locals>.newcls: 400 Bad Request: KeyError: 'username'
+113.91.148.115 - - [02/Jul/2019 16:59:21] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:59:31] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 16:59:34] "POST /login?username=a&passwd=b HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/myWeb/flask/hello.py", line 16, in login
+    username = request.form['username']
+  File "/root/.virtualenvs/py36env/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.HTTPException.wrap.<locals>.newcls: 400 Bad Request: KeyError: 'username'
+ * Detected change in '/myWeb/flask/hello.py', reloading
+a b
+a b
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 701-819-767
+113.91.148.115 - - [02/Jul/2019 17:04:04] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+ * Detected change in '/myWeb/flask/hello.py', reloading
+a b
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 701-819-767
+113.91.148.115 - - [02/Jul/2019 17:04:55] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:05:00] "POST /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:05:13] "POST /login?username=a HTTP/1.1" 200 -
+119.23.174.205 - - [02/Jul/2019 17:12:36] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+119.23.174.205 - - [02/Jul/2019 17:12:36] "  (rþ          |                    " HTTPStatus.BAD_REQUEST -
+113.91.148.115 - - [02/Jul/2019 17:17:58] "POST /login?username=a HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:18:34] "POST /login?username=a HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:18:52] "POST /login?username=a HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:21:46] "POST /login HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:31:47] "POST /login HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:42:53] "POST /login HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:43:33] "GET /login HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:43:50] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:44:18] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [02/Jul/2019 17:48:18] "POST /login?username=a&passwd=b HTTP/1.1" 200 -
+47.96.254.10 - - [02/Jul/2019 20:58:16] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+47.96.254.10 - - [02/Jul/2019 20:58:16] "  (rþ          |                    " HTTPStatus.BAD_REQUEST -
+113.91.148.115 - - [03/Jul/2019 08:47:52] "GET / HTTP/1.1" 200 -
+113.91.148.115 - - [03/Jul/2019 08:47:52] "GET /favicon.ico HTTP/1.1" 404 -
+113.91.148.115 - - [03/Jul/2019 08:48:41] "POST /login HTTP/1.1" 200 -
+113.91.148.115 - - [03/Jul/2019 08:48:45] "POST /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [03/Jul/2019 08:50:18] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+113.91.148.115 - - [03/Jul/2019 09:03:30] "GET /login?username=a&passwd=b HTTP/1.1" 200 -
+python: can't open file '/myWeb/flask/flaskInterface/hello.py': [Errno 2] No such file or directory
