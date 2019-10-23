@@ -1,31 +1,54 @@
 
-from flask import Flask,request
+import sys
+# sys.path.append('E:\\pythonProject\\python_study\\python初学\\初学(2)')
+sys.path.append('./') #效果和上面绝对路径一致
+
+from flask import Flask, request
 import json
 app = Flask(__name__)
 
 @app.route("/")
 def start():
-  return json.dumps({
-    'code': '00',
-    'msg':'ok'
-  })
+    return json.dumps({
+        'code': '00',
+        'msg': 'ok'
+    })
 
-@app.route("/login",methods=["GET","POST"])
+
+@app.route("/login", methods=["GET", "POST"])
 def login():
-  if request.method == "POST":
-      username = request.form.get('username')
-      passwd = request.form.get('passwd')
-  else: # 以GET方式传参数，通过args取值
-      username = request.args.get('username')
-      passwd = request.args.get('passwd')
-  
-  print(username,passwd)
+    if request.method == "POST":
+        username = request.form.get('username')
+        passwd = request.form.get('passwd')
+    else:  # 以GET方式传参数，通过args取值
+        username = request.args.get('username')
+        passwd = request.args.get('passwd')
+    print(username, passwd)
+    dict = {
+        'username': username,
+        'passwd': passwd
+    }
+    return json.dumps(dict)
 
-  dict = {
-      'username':username,
-      'passwd':passwd
-  }
-  return json.dumps(dict)
+
+@app.route("/regist", methods=["GET", "POST"])
+def regist():
+    username = request.form.get('username')
+    passwd = request.form.get('passwd')
+    if(username == None  or  passwd == None) : #判断get post 2种方式，第一种如上/login，第二种如下都获取一遍
+        username = request.args.get('username')
+        passwd = request.args.get('passwd')
+    print(username, passwd)
+    headerContent = request.headers.get('headerName') #获取header中字段值
+    jsonContent = request.get_json(silent=True)  #获取json整体入参（一般放到body中），如果body中传递的是表单则获取方式还是request.form.get或者request.args.get
+    dict = {
+        'username': username,
+        'passwd': passwd,
+        'headerContent':headerContent,
+        'jsonContent':jsonContent
+    }
+    return json.dumps(dict,indent=3)
+
 
 if __name__ == '__main__':
-  app.run(debug=True,host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000)
