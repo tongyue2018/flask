@@ -41,15 +41,16 @@ def regist():
         username = request.args.get('username')
         passwd = request.args.get('passwd')
     print(username, passwd)
-    headerContent = request.headers.get('headerName') #获取header中字段值
+    headerName = request.headers.get('headerName') #获取header中字段值
     jsonContent = request.get_json(silent=True)  #获取json整体入参（一般放到body中），如果body中传递的是表单则获取方式还是request.form.get或者request.args.get
     dict = {
         'username': username,
         'passwd': passwd,
-        'headerContent':headerContent,
+        'headerName':headerName,
         'jsonContent':jsonContent
     }
     jsonFormatResult = json.dumps(dict, indent=3)
+
 
     #返回header
     response = make_response(jsonFormatResult)
