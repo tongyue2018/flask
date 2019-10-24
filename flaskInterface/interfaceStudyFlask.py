@@ -1,6 +1,6 @@
 
 import sys
-from flask import make_response, jsonify
+from flask import make_response
 
 # sys.path.append('E:\\pythonProject\\python_study\\python初学\\初学(2)')
 sys.path.append('./') #效果和上面绝对路径一致
@@ -35,12 +35,6 @@ def login():
 
 @app.route("/regist", methods=["GET", "POST","OPTIONS"])
 def regist():
-    def json_contents():
-        response = make_response(jsonify(response=json.dumps(dict,indent=3)))
-        response.headers['Access-Control-Allow-Origin'] = '*'
-        response.headers['Access-Control-Allow-Methods'] = 'POST'
-        response.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
-        return response
     username = request.form.get('username')
     passwd = request.form.get('passwd')
     if(username == None  or  passwd == None) : #判断get post 2种方式，第一种如上/login，第二种如下都获取一遍
@@ -55,8 +49,14 @@ def regist():
         'headerContent':headerContent,
         'jsonContent':jsonContent
     }
-    return json_contents()
-    #return json.dumps(dict, indent=3)
+    jsonFormatResult = json.dumps(dict, indent=3)
+
+    #返回header
+    response = make_response(jsonFormatResult)
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'POST'
+    response.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
+    return response
 
 
 if __name__ == '__main__':
