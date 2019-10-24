@@ -33,7 +33,7 @@ def login():
     return json.dumps(dict)
 
 
-@app.route("/regist", methods=["GET", "POST"])
+@app.route("/regist", methods=["GET", "POST","OPTIONS"])
 def regist():
     def json_contents():
         response = make_response(jsonify(response=json.dumps(dict,indent=3)))
@@ -56,6 +56,7 @@ def regist():
         'jsonContent':jsonContent
     }
     return json_contents()
+    #return json.dumps(dict, indent=3)
 
 
 if __name__ == '__main__':
