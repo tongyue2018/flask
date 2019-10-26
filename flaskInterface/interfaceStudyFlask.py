@@ -1,6 +1,8 @@
 
 import sys
 from flask import make_response
+from flask_cors import CORS, cross_origin
+
 
 # sys.path.append('E:\\pythonProject\\python_study\\python初学\\初学(2)')
 sys.path.append('./') #效果和上面绝对路径一致
@@ -8,6 +10,7 @@ sys.path.append('./') #效果和上面绝对路径一致
 from flask import Flask, request
 import json
 app = Flask(__name__)
+cors = CORS(app)
 
 @app.route("/")
 def start():
@@ -15,23 +18,6 @@ def start():
         'code': '00',
         'msg': 'ok'
     })
-
-
-@app.route("/login", methods=["GET", "POST"])
-def login():
-    if request.method == "POST":
-        username = request.form.get('username')
-        passwd = request.form.get('passwd')
-    else:  # 以GET方式传参数，通过args取值
-        username = request.args.get('username')
-        passwd = request.args.get('passwd')
-    print(username, passwd)
-    dict = {
-        'username': username,
-        'passwd': passwd
-    }
-    return json.dumps(dict)
-
 
 @app.route("/regist", methods=["GET", "POST","OPTIONS"])
 def regist():
