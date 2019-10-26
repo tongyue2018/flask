@@ -10,7 +10,8 @@ sys.path.append('./') #效果和上面绝对路径一致
 from flask import Flask, request
 import json
 app = Flask(__name__)
-cors = CORS(app)
+# cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+cors = CORS(app, resources={r"*": {"origins": "*"}})
 
 @app.route("/")
 def start():
@@ -20,7 +21,7 @@ def start():
     })
 
 @app.route("/regist", methods=["GET", "POST","OPTIONS"])
-@cross_origin()
+# @cross_origin()
 def regist():
     username = request.form.get('username')
     passwd = request.form.get('passwd')
