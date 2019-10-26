@@ -25,7 +25,7 @@ def start():
 def regist():
     username = "form表单 get请求"+str(request.form.get('username'))
     passwd = "form表单 get请求"+str(request.form.get('passwd'))
-    if(str(request.form.get('username')) == None  or  str(request.form.get('passwd')) == None) : #判断get post 2种方式，第一种如上/login，第二种如下都获取一遍
+    if(str(request.form.get('username')) == (None or "")  or  str(request.form.get('passwd')) == (None or "")) : #判断get post 2种方式，第一种如上/login，第二种如下都获取一遍
         username = "form表单 post请求"+str(request.args.get('username'))
         passwd = "form表单 post请求"+str(request.args.get('passwd'))
     print(username, passwd)
