@@ -20,6 +20,7 @@ def start():
     })
 
 @app.route("/regist", methods=["GET", "POST","OPTIONS"])
+@cross_origin()
 def regist():
     username = request.form.get('username')
     passwd = request.form.get('passwd')
@@ -39,11 +40,13 @@ def regist():
 
 
     #返回header
-    response = make_response(jsonFormatResult)
-    response.headers['Access-Control-Allow-Origin'] = '*'
-    response.headers['Access-Control-Allow-Methods'] = 'POST'
-    response.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
-    return response
+    # response = make_response(jsonFormatResult)
+    # response.headers['Access-Control-Allow-Origin'] = '*'
+    # response.headers['Access-Control-Allow-Methods'] = 'POST'
+    # response.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
+    # return response
+
+    return jsonFormatResult
 
 
 if __name__ == '__main__':
