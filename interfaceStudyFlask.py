@@ -26,11 +26,11 @@ def regist():
     username = request.form.get('username')
     passwd = request.form.get('passwd')
     if(username == None  or  passwd == None) : #判断get post 2种方式，第一种如上/login，第二种如下都获取一遍
-        username = request.args.get('username')
-        passwd = request.args.get('passwd')
+        username = "入参是表单格式"+request.args.get('username')
+        passwd = "入参请求是表单格式"+request.args.get('passwd')
     print(username, passwd)
     headerName = request.headers.get('headerName') #获取header中字段值
-    jsonContent = request.get_json(silent=True)  #获取json整体入参（一般放到body中），如果body中传递的是表单则获取方式还是request.form.get或者request.args.get
+    jsonContent = "入参是json格式"+request.get_json(silent=True)  #获取json整体入参（一般放到body中），如果body中传递的是表单则获取方式还是request.form.get或者request.args.get
     dict = {
         'username': username,
         'passwd': passwd,
