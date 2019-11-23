@@ -11,7 +11,7 @@ from flask import Flask, request
 import json
 app = Flask(__name__)
 # cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
-cors = CORS(app, resources={r"*": {"origins": "*"}})
+cors = CORS(app, resources={r"*": {"origins": "*"}})##方法一：全局配置跨域
 
 @app.route("/")
 def start():
@@ -21,7 +21,7 @@ def start():
     })
 
 @app.route("/regist", methods=["GET", "POST","OPTIONS"])
-# @cross_origin()
+# @cross_origin()##方法二：局部配置跨域
 def regist():
     username = "form表单 post请求---"+str(request.form.get('username'))
     passwd = "form表单 post请求---"+str(request.form.get('passwd'))
