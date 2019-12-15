@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="添加注释1">
-      <change beforePath="$PROJECT_DIR$/.idea/flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskInterface/接口实现-跨域/interfaceStudyFlask.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskInterface/接口实现-跨域/interfaceStudyFlask.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue-study-start/vue-study-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-study-start/vue-study-start.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +13,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/flaskInterface" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -114,12 +110,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Flask server.Flask (flaskInterface/接口实现-跨域/interfaceStudyFlask.py)" />
       <item itemvalue="JavaScript Debug.36-vue-方式1-发起get请求-axios Qs表单提交.html" />
       <item itemvalue="JavaScript Debug.39-vue-方式2-发起get请求-axios Qs表单提交-推荐.html" />
       <item itemvalue="JavaScript Debug.37-vue-方式2-发起post请求-axios Qs表单提交-推荐.html" />
       <item itemvalue="JavaScript Debug.38-vue-方式2-发起post请求-axios -json提交-推荐.html" />
       <item itemvalue="Python.flask" />
-      <item itemvalue="Flask server.Flask (flaskInterface/接口实现-跨域/interfaceStudyFlask.py)" />
     </list>
     <recent_temporary>
       <list>
@@ -175,7 +171,7 @@
       <workItem from="1572076234916" duration="4776000" />
       <workItem from="1572088488374" duration="647000" />
       <workItem from="1574473630487" duration="430000" />
-      <workItem from="1576405075275" duration="3519000" />
+      <workItem from="1576405075275" duration="3561000" />
     </task>
     <task id="LOCAL-00001" summary="添加注释">
       <created>1568703416437</created>
@@ -324,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576405116848</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="flask">
+      <created>1576408906787</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576408906787</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,45 +363,52 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加注释" />
     <MESSAGE value="添加注释1" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注释1" />
+    <MESSAGE value="flask" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask" />
   </component>
   <component name="WindowStateProjectService">
     <state x="205" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576405281561">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="205" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826@0.23.1440.826" timestamp="1576405281561" />
-    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1576405154376">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="294" y="53" key="CommitChangelistDialog2" timestamp="1576408906637">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state x="294" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1576408906637" />
     <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1576405154376" />
     <state x="354" y="285" key="FileChooserDialogImpl" timestamp="1576407512772">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="354" y="285" key="FileChooserDialogImpl/0.23.1440.825@0.23.1440.825" timestamp="1576407455743" />
     <state x="354" y="285" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1576407512772" />
-    <state width="1358" height="201" key="GridCell.Tab.0.bottom" timestamp="1576406021803">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="201" key="GridCell.Tab.0.bottom" timestamp="1576408928771">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state width="1358" height="201" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1576408928771" />
     <state width="1358" height="201" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1576406021803" />
-    <state width="1358" height="201" key="GridCell.Tab.0.center" timestamp="1576406021802">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="201" key="GridCell.Tab.0.center" timestamp="1576408928770">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state width="1358" height="201" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1576408928770" />
     <state width="1358" height="201" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1576406021802" />
-    <state width="1358" height="201" key="GridCell.Tab.0.left" timestamp="1576406021801">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="201" key="GridCell.Tab.0.left" timestamp="1576408928769">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state width="1358" height="201" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1576408928769" />
     <state width="1358" height="201" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1576406021801" />
-    <state width="1358" height="201" key="GridCell.Tab.0.right" timestamp="1576406021802">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="201" key="GridCell.Tab.0.right" timestamp="1576408928770">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state width="1358" height="201" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1576408928770" />
     <state width="1358" height="201" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1576406021802" />
     <state x="213" y="64" key="SettingsEditor" timestamp="1576407525278">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="213" y="64" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1576407525278" />
-    <state x="300" y="197" key="Vcs.Push.Dialog.v2" timestamp="1576405122738">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="300" y="197" key="Vcs.Push.Dialog.v2" timestamp="1576408915010">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1576408915010" />
     <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1576405122738" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
