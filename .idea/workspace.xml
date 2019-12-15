@@ -18,7 +18,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../pythonSpider" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -135,12 +135,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Flask server.Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py)" />
       <item itemvalue="JavaScript Debug.39-vue-方式2-发起get请求-axios Qs表单提交-推荐.html" />
       <item itemvalue="JavaScript Debug.37-vue-方式2-发起post请求-axios Qs表单提交-推荐.html" />
       <item itemvalue="JavaScript Debug.38-vue-方式2-发起post请求-axios -json提交-推荐.html" />
       <item itemvalue="Python.flask" />
       <item itemvalue="Python.NotifyBirthday" />
-      <item itemvalue="Flask server.Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py)" />
     </list>
     <recent_temporary>
       <list>
