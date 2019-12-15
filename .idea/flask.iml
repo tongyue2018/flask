@@ -11,7 +11,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/flaskInterface/notifyTomplate" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/flaskInterface/server酱通知微信消息" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/flaskInterface/serverJang" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (flask-vpDDXCVG)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

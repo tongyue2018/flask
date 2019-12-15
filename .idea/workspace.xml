@@ -119,14 +119,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (flaskInterface/接口实现-跨域/interfaceStudyFlask.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="flask" />
-      <option name="target" value="$PROJECT_DIR$/flaskInterface/接口实现-跨域/interfaceStudyFlask.py" />
+      <option name="target" value="$PROJECT_DIR$/flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -135,17 +135,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Flask server.Flask (flaskInterface/接口实现-跨域/interfaceStudyFlask.py)" />
       <item itemvalue="JavaScript Debug.39-vue-方式2-发起get请求-axios Qs表单提交-推荐.html" />
       <item itemvalue="JavaScript Debug.37-vue-方式2-发起post请求-axios Qs表单提交-推荐.html" />
       <item itemvalue="JavaScript Debug.38-vue-方式2-发起post请求-axios -json提交-推荐.html" />
       <item itemvalue="Python.flask" />
       <item itemvalue="Python.NotifyBirthday" />
+      <item itemvalue="Flask server.Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.NotifyBirthday" />
-        <item itemvalue="Flask server.Flask (flaskInterface/接口实现-跨域/interfaceStudyFlask.py)" />
+        <item itemvalue="Flask server.Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py)" />
         <item itemvalue="JavaScript Debug.38-vue-方式2-发起post请求-axios -json提交-推荐.html" />
         <item itemvalue="JavaScript Debug.37-vue-方式2-发起post请求-axios Qs表单提交-推荐.html" />
         <item itemvalue="JavaScript Debug.39-vue-方式2-发起get请求-axios Qs表单提交-推荐.html" />
@@ -417,11 +417,11 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="427" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.827@0.23.1440.827" timestamp="1576413945078" />
-    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1576419661917">
+    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1576419979712">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="294" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1576408906637" />
-    <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1576419661917" />
+    <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1576419979712" />
     <state x="354" y="285" key="FileChooserDialogImpl" timestamp="1576407512772">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
