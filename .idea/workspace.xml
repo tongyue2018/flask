@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskInterface/.idea/flaskInterface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flaskInterface/.idea/flaskInterface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskInterface/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flaskInterface/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flaskInterface/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskInterface/server酱通知微信消息/NotifyBirthday.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskInterface/server酱通知微信消息/NotifyBirthday.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskInterface/接口实现-跨域/interfaceStudyFlask.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskInterface/接口实现-跨域/interfaceStudyFlask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +18,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/flaskInterface" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -203,7 +197,7 @@
       <workItem from="1572088488374" duration="647000" />
       <workItem from="1574473630487" duration="430000" />
       <workItem from="1576405075275" duration="3561000" />
-      <workItem from="1576410023874" duration="7340000" />
+      <workItem from="1576410023874" duration="7622000" />
     </task>
     <task id="LOCAL-00001" summary="添加注释">
       <created>1568703416437</created>
@@ -411,7 +405,8 @@
     <MESSAGE value="flask" />
     <MESSAGE value="添加注释1" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update-1215" />
+    <option name="LAST_COMMIT_MESSAGE" value="update-1215" />
   </component>
   <component name="WindowStateProjectService">
     <state x="205" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576405281561">
@@ -422,11 +417,11 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="427" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.827@0.23.1440.827" timestamp="1576413945078" />
-    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1576419632208">
+    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1576419661917">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="294" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1576408906637" />
-    <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1576419632208" />
+    <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1576419661917" />
     <state x="354" y="285" key="FileChooserDialogImpl" timestamp="1576407512772">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
