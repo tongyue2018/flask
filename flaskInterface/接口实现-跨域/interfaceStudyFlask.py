@@ -42,7 +42,7 @@ def regist():
     #返回header
     # response = make_response(jsonFormatResult)
     # response.headers['Access-Control-Allow-Origin'] = '*'
-    # response.headers['Access-Control-Allow-Methods'] = 'POST'
+    # response.headers['Access-Control-Allow-Methods/Users/tingtingli/.local/share/virtualenvs/flask-vpDDXCVG/bin/python3.6'] = 'POST'
     # response.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
     # return response
 
