@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/flaskInterface" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../pythonSpider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../python_study" vcs="Git" />
   </component>
