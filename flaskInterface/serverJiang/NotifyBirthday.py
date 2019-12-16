@@ -5,7 +5,7 @@ sys.path.append('../') #效果和上面绝对路径一致
 import time
 from apscheduler.schedulers.blocking import BlockingScheduler
 from borax.calendars.lunardate import LunarDate
-from  notifyTomplate.ServerJiangNotify import ServerJiangNoify
+from  ServerJiangNotify import ServerJiangNoify
 
 class NotifyBirthday:
     def __init__(self,**birthdayDict):
