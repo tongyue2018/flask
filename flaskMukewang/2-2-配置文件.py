@@ -13,3 +13,6 @@ if(__name__ == '__main__'):
 
 # 先了解第一种，from_pyfile
 # 读取app.config是1个字典，从py文件中读取的值。
+# 坑1，注意config.py里面变量要大写
+# 坑2，表示如果配置文件取不到 默认false
+# 坑3，常量 都大些
