@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/2-1-配置文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/2-3-调试代码.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/1-唯一url原则，结尾带斜杠与不带.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/2-1-唯一url原则，结尾带斜杠与不带.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/2-1-配置文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/2-2-配置文件.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/2-3-调试代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/2-3-调试代码，输出变量.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_study/.idea/py_pyCharm1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_study/.idea/py_pyCharm1.iml" afterDir="false" />
     </list>
@@ -74,7 +72,7 @@
       <recent name="E:\vue-study-start\htmlFolder-vue" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (flaskMukewang/2-1-配置文件.py) (1)">
+  <component name="RunManager" selected="Flask server.Flask (flaskMukewang/2-2-配置文件.py)">
     <configuration name="NotifyBirthday (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,21 +139,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (flaskMukewang/2-1-配置文件.py) (1)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
-      <module name="flask" />
-      <option name="target" value="$PROJECT_DIR$/flaskMukewang/2-1-配置文件.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="Flask (flaskMukewang/2-1-配置文件.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <option name="flaskDebug" value="true" />
       <module name="flask" />
@@ -204,18 +187,48 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Flask (flaskMukewang/2-2-配置文件.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="flaskDebug" value="true" />
+      <module name="flask" />
+      <option name="target" value="$PROJECT_DIR$/flaskMukewang/2-2-配置文件.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (flaskMukewang/2-2-配置文件.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="flask" />
+      <option name="target" value="$PROJECT_DIR$/flaskMukewang/2-2-配置文件.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Flask server.Flask (flaskMukewang/2-1-唯一url原则，结尾带斜杠与不带.py)" />
-      <item itemvalue="Flask server.Flask (flaskMukewang/2-1-配置文件.py)" />
       <item itemvalue="Python.flask" />
       <item itemvalue="Python.NotifyBirthday (1)" />
       <item itemvalue="Python.ServerJiangNotify" />
-      <item itemvalue="Flask server.Flask (flaskMukewang/2-1-配置文件.py) (1)" />
+      <item itemvalue="Flask server.Flask (flaskMukewang/2-2-配置文件.py)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (flaskMukewang/2-1-配置文件.py) (1)" />
-        <item itemvalue="Flask server.Flask (flaskMukewang/2-1-配置文件.py)" />
+        <item itemvalue="Flask server.Flask (flaskMukewang/2-2-配置文件.py)" />
+        <item itemvalue="Flask server.Flask (flaskMukewang/2-2-配置文件.py)" />
         <item itemvalue="Flask server.Flask (flaskMukewang/2-1-配置文件.py)" />
         <item itemvalue="Flask server.Flask (flaskMukewang/2-1-唯一url原则，结尾带斜杠与不带.py)" />
         <item itemvalue="Flask server.Flask (flaskMukewang/1-唯一url原则，结尾带斜杠与不带.py)" />
@@ -269,7 +282,7 @@
       <workItem from="1576405075275" duration="3561000" />
       <workItem from="1576410023874" duration="7622000" />
       <workItem from="1576509621422" duration="1095000" />
-      <workItem from="1577001155354" duration="3726000" />
+      <workItem from="1577001155354" duration="3781000" />
     </task>
     <task id="LOCAL-00001" summary="添加注释">
       <created>1568703416437</created>
@@ -453,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577003110966</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="第一节">
+      <created>1577005379679</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1577005379679</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,11 +526,11 @@
     <state x="427" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1577001833982" />
     <state x="427" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.826@0.23.1440.826" timestamp="1577003332616" />
     <state x="427" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.827@0.23.1440.827" timestamp="1576413945078" />
-    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1577003110719">
+    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1577005379497">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="294" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1576510693004" />
-    <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1577003110719" />
+    <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1577005379497" />
     <state x="354" y="285" key="FileChooserDialogImpl" timestamp="1576407512772">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -542,11 +562,11 @@
     <state x="129" y="109" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1576510045931" />
     <state x="213" y="64" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1576407525278" />
     <state x="213" y="64" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1576417241789" />
-    <state x="300" y="197" key="Vcs.Push.Dialog.v2" timestamp="1577003113189">
+    <state x="300" y="197" key="Vcs.Push.Dialog.v2" timestamp="1577005381189">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1576510698201" />
-    <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1577003113189" />
+    <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1577005381189" />
     <state x="366" y="227" key="git4idea.merge.GitPullDialog" timestamp="1577001192179">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
