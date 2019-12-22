@@ -1,23 +1,12 @@
 from flask import Flask
-import logging,time
-
-# from logging.config import dictConfig
-#
-# dictConfig({
-#     'version': 1,
-#     'formatters': {'default': {
-#         'format': '[%(asctime)s] %(levelname)s in %(module)s: %(message)s',
-#     }},
-#     'handlers': {'wsgi': {
-#         'class': 'logging.StreamHandler',
-#         'stream': 'ext://flask.logging.wsgi_errors_stream',
-#         'formatter': 'default'
-#     }},
-#     'root': {
-#         'level': 'INFO',
-#         'handlers': ['wsgi']
-#     }
-# })
+import logging
+logging.basicConfig(
+    level=logging.DEBUG,#控制台打印的日志级别
+    filename='flask.log',  # 将日志写入log_new.log文件中
+    filemode='a',##模式，a追加，w覆盖
+    # format='%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s'#完整日志格式
+    format='%(asctime)s - %(levelname)s: %(message)s'#日志格式
+)
 
 app = Flask(__name__)
 app.config.from_pyfile('../config.py')
@@ -25,12 +14,11 @@ app.config.from_pyfile('../config.py')
 
 @app.route('/')
 def register():
-    timeStr = time.strftime('%Y-%m-%d',time.localtime(time.time()))
-    app.logger.debug('输出配置文件HOST常量的值:%s,时间:%s'%(app.config['HOST'],timeStr))
+    app.logger.info('输出配置文件HOST常量的值:%s,时间:%s'%(app.config['HOST']))
     return 'hello world'
 
 if(__name__ == '__main__'):
-    handler = logging.FileHandler('flask.log',encoding='utf-8')
-    handler.setLevel(logging.DEBUG)
-    app.logger.addHandler(handler)
     app.run(host=app.config['HOST'],port=5000,debug=True)
+
+# 第一步：加入logging.basicConfig基础配置。
+# 第二步：输出log, app.logger.info
