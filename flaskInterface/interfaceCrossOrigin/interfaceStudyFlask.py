@@ -23,11 +23,12 @@ def start():
 @app.route("/regist", methods=["GET", "POST","OPTIONS"])
 # @cross_origin()##方法二：局部配置跨域
 def regist():
-    username = "form表单 get请求---"+str(request.form.get('username'))
-    passwd = "form表单 get请求---"+str(request.form.get('passwd'))
+    username = "form表单 post请求---"+str(request.form.get('username'))
+    passwd = "form表单 post请求---"+str(request.form.get('passwd'))
+
     if(request.form.get('username') == None or request.form.get('passwd') == None) : #判断get post 2种方式，第一种如上/login，第二种如下都获取一遍
-        username = "form表单 post请求---"+str(request.args.get('username'))
-        passwd = "form表单 post请求---"+str(request.args.get('passwd'))
+        username = "form表单 get请求---"+str(request.args.get('username'))
+        passwd = "form表单 get请求---"+str(request.args.get('passwd'))
     headerName = request.headers.get('headerName') #获取header中字段值
     jsonContent = request.get_json(silent=True)  #获取json整体入参（一般放到body中），如果body中传递的是表单则获取方式还是request.form.get或者request.args.get
     dict = {
@@ -42,7 +43,7 @@ def regist():
     #返回header
     response = make_response(jsonFormatResult)
     response.headers['Access-Control-Allow-Origin'] = '*'
-    response.headers['Content-type'] = 'application/json'
+    response.headers['Content-type'] = 'application/json;charset=UTF-8'
     return response
 
 
