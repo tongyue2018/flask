@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="nohup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/2-3-调试代码，输出变量.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/2-3-调试代码，输出变量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/flask.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_study/.idea/py_pyCharm1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_study/.idea/py_pyCharm1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_study/python初学/8-requests/requests-post-json.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_study/python初学/8-requests/requests-post-json.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../python_study" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -71,51 +72,7 @@
       <recent name="E:\vue-study-start\htmlFolder-vue" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (flaskMukewang/2-3-调试代码，输出变量.py)">
-    <configuration name="NotifyBirthday (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="flask" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskInterface/serverJiang" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskInterface/serverJiang/NotifyBirthday.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ServerJiangNotify" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="flask" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskInterface/serverJiang" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskInterface/serverJiang/ServerJiangNotify.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.requests-post-json">
     <configuration name="flask" type="PythonConfigurationType" factoryName="Python">
       <module name="flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +93,65 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requests-post-biaodan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_pyCharm1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_study/python初学/8-requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_study/python初学/8-requests/requests-post-biaodan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requests-post-json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_pyCharm1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_study/python初学/8-requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_study/python初学/8-requests/requests-post-json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="flask" />
+      <option name="target" value="$PROJECT_DIR$/flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Flask (flaskMukewang/2-1-配置文件.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
@@ -234,19 +250,51 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Flask (flaskMukewang/2-3-调试代码，输出变量.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="flask" />
+      <option name="target" value="$PROJECT_DIR$/flaskMukewang/2-3-调试代码，输出变量.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (flaskMukewang/2-4-视图函数Response.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="flask" />
+      <option name="target" value="$PROJECT_DIR$/flaskMukewang/2-4-视图函数Response.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Flask server.Flask (flaskMukewang/2-3-调试代码，输出变量.py)" />
       <item itemvalue="Python.flask" />
-      <item itemvalue="Python.NotifyBirthday (1)" />
-      <item itemvalue="Python.ServerJiangNotify" />
+      <item itemvalue="Flask server.Flask (flaskMukewang/2-4-视图函数Response.py)" />
+      <item itemvalue="Python.requests-post-biaodan" />
+      <item itemvalue="Flask server.Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py)" />
+      <item itemvalue="Python.requests-post-json" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.requests-post-json" />
+        <item itemvalue="Flask server.Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py)" />
+        <item itemvalue="Python.requests-post-biaodan" />
+        <item itemvalue="Flask server.Flask (flaskMukewang/2-4-视图函数Response.py)" />
         <item itemvalue="Flask server.Flask (flaskMukewang/2-3-调试代码，输出变量.py)" />
-        <item itemvalue="Flask server.Flask (flaskMukewang/2-3-调试代码，输出变量.py)" />
-        <item itemvalue="Flask server.Flask (flaskMukewang/2-3-调试代码，输出变量.py)" />
-        <item itemvalue="Flask server.Flask (flaskMukewang/2-3-调试代码，输出变量.py)" />
-        <item itemvalue="Flask server.Flask (flaskMukewang/2-2-配置文件.py)" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +345,7 @@
       <workItem from="1576405075275" duration="3561000" />
       <workItem from="1576410023874" duration="7622000" />
       <workItem from="1576509621422" duration="1095000" />
-      <workItem from="1577001155354" duration="9487000" />
+      <workItem from="1577001155354" duration="12975000" />
     </task>
     <task id="LOCAL-00001" summary="添加注释">
       <created>1568703416437</created>
@@ -523,7 +571,35 @@
       <option name="project" value="LOCAL" />
       <updated>1577008593021</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="nohupd">
+      <created>1577015006921</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1577015006921</updated>
+    </task>
+    <task id="LOCAL-00034" summary="nohup">
+      <created>1577016367657</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577016367657</updated>
+    </task>
+    <task id="LOCAL-00035" summary="nohup">
+      <created>1577016700119</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1577016700119</updated>
+    </task>
+    <task id="LOCAL-00036" summary="nohup">
+      <created>1577862572316</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1577862572316</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,26 +640,27 @@
     <MESSAGE value="update-1215" />
     <MESSAGE value="第一节" />
     <MESSAGE value="第三节" />
+    <MESSAGE value="nohupd" />
     <MESSAGE value="nohup" />
     <option name="LAST_COMMIT_MESSAGE" value="nohup" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="205" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577014483840">
+    <state x="205" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577016003812">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="205" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1577008254721" />
-    <state x="205" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826@0.23.1440.826" timestamp="1577014483840" />
+    <state x="205" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826@0.23.1440.826" timestamp="1577016003812" />
     <state x="427" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577008431476">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="427" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1577001833982" />
     <state x="427" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.826@0.23.1440.826" timestamp="1577003332616" />
     <state x="427" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.827@0.23.1440.827" timestamp="1577008431476" />
-    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1577008592866">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="294" y="54" key="CommitChangelistDialog2" timestamp="1577862572159">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="294" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1576510693004" />
-    <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1577007838023" />
+    <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1577862572159" />
     <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1577008592866" />
     <state x="354" y="285" key="FileChooserDialogImpl" timestamp="1576407512772">
       <screen x="0" y="23" width="1440" height="826" />
@@ -594,42 +671,63 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="118" y="190" key="FileDocumentManager.FileCacheConflict/0.23.1440.826@0.23.1440.826" timestamp="1577006659788" />
-    <state width="1358" height="200" key="GridCell.Tab.0.bottom" timestamp="1577014487759">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="200" key="GridCell.Tab.0.bottom" timestamp="1577863214497">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1577014159266" />
-    <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577014487759" />
-    <state width="1358" height="200" key="GridCell.Tab.0.center" timestamp="1577014487759">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1577016101699" />
+    <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577863017459" />
+    <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1577863214497" />
+    <state width="1358" height="200" key="GridCell.Tab.0.center" timestamp="1577863214497">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1577014159265" />
-    <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577014487759" />
-    <state width="1358" height="200" key="GridCell.Tab.0.left" timestamp="1577014487758">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1577016101698" />
+    <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577863017459" />
+    <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1577863214497" />
+    <state width="1358" height="200" key="GridCell.Tab.0.left" timestamp="1577863214496">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1577014159265" />
-    <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577014487758" />
-    <state width="1358" height="200" key="GridCell.Tab.0.right" timestamp="1577014487759">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1577016101698" />
+    <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577863017458" />
+    <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1577863214496" />
+    <state width="1358" height="200" key="GridCell.Tab.0.right" timestamp="1577863214497">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1577014159266" />
-    <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577014487759" />
+    <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1577016101699" />
+    <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577863017459" />
+    <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1577863214497" />
+    <state width="1358" height="249" key="GridCell.Tab.1.bottom" timestamp="1577862853366">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1577862853366" />
+    <state width="1358" height="249" key="GridCell.Tab.1.center" timestamp="1577862853366">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1577862853366" />
+    <state width="1358" height="249" key="GridCell.Tab.1.left" timestamp="1577862853366">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1577862853366" />
+    <state width="1358" height="249" key="GridCell.Tab.1.right" timestamp="1577862853366">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1577862853366" />
     <state x="311" y="102" key="SettingsEditor" timestamp="1577006580264">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="129" y="109" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1576510045931" />
     <state x="311" y="102" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1577006580264" />
     <state x="213" y="64" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1576417241789" />
-    <state x="300" y="197" key="Vcs.Push.Dialog.v2" timestamp="1577008594549">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="300" y="197" key="Vcs.Push.Dialog.v2" timestamp="1577862575325">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1576510698201" />
-    <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1577007839701" />
+    <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1577862575325" />
     <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1577008594549" />
-    <state x="366" y="227" key="git4idea.merge.GitPullDialog" timestamp="1577001192179">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="366" y="227" key="git4idea.merge.GitPullDialog" timestamp="1577861473601">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="366" y="227" key="git4idea.merge.GitPullDialog/0.23.1440.825@0.23.1440.825" timestamp="1577001192179" />
+    <state x="366" y="227" key="git4idea.merge.GitPullDialog/0.23.1440.826@0.23.1440.826" timestamp="1577861473601" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask$Flask__flaskInterface_helloWorld_py_.coverage" NAME="Flask (flaskInterface/helloWorld.py) Coverage Results" MODIFIED="1568702021864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -639,13 +737,16 @@
     <SUITE FILE_PATH="coverage/flask$ServerJiangNotify.coverage" NAME="ServerJiangNotify Coverage Results" MODIFIED="1576510593044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskInterface/serverJiang" />
     <SUITE FILE_PATH="coverage/flask$NotifyBirthday__1_.coverage" NAME="NotifyBirthday (1) Coverage Results" MODIFIED="1576510668238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskInterface/serverJiang" />
     <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_2_3__py_.coverage" NAME="Flask (flaskMukewang/2-3-调试代码，输出变量.py) Coverage Results" MODIFIED="1577014159258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_2_3__py___1_.coverage" NAME="Flask (flaskMukewang/2-3-调试代码，输出变量.py) Coverage Results" MODIFIED="1577014487751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_2_4_Response_py_.coverage" NAME="Flask (flaskMukewang/2-4-视图函数Response.py) Coverage Results" MODIFIED="1577016691064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_2_3__py___1_.coverage" NAME="Flask (flaskMukewang/2-3-调试代码，输出变量.py) Coverage Results" MODIFIED="1577016099364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flask$NotifyBirthday.coverage" NAME="NotifyBirthday Coverage Results" MODIFIED="1576419536767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskInterface/server酱通知微信消息" />
     <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_2_1__py_.coverage" NAME="Flask (flaskMukewang/2-1-配置文件.py) Coverage Results" MODIFIED="1577003551512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flask$flask.coverage" NAME="flask Coverage Results" MODIFIED="1571834822992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flask$Flask__flaskInterface_interfaceCrossOrigin_interfaceStudyFlask_py_.coverage" NAME="Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py) Coverage Results" MODIFIED="1577001893708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_1_url_py___1_.coverage" NAME="Flask (flaskMukewang/1-唯一url原则，结尾带斜杠与不带.py) (1) Coverage Results" MODIFIED="1577002016240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask$Flask__flaskInterface_interfaceCrossOrigin_interfaceStudyFlask_py_.coverage" NAME="Flask (flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py) Coverage Results" MODIFIED="1577862293691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask$requests_post_json.coverage" NAME="requests-post-json Coverage Results" MODIFIED="1577863214490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_study/python初学/8-requests" />
     <SUITE FILE_PATH="coverage/flask$Flask__flaskInterface___interfaceStudyFlask_py_.coverage" NAME="Flask (flaskInterface/接口实现-跨域/interfaceStudyFlask.py) Coverage Results" MODIFIED="1576405545198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask$requests_post_biaodan.coverage" NAME="requests-post-biaodan Coverage Results" MODIFIED="1577861495462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_study/python初学/8-requests" />
   </component>
   <component name="masterDetails">
     <states>
