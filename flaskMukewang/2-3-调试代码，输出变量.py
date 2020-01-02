@@ -14,7 +14,7 @@ app.config.from_pyfile('../config.py')
 
 @app.route('/')
 def register():
-    app.logger.info('输出配置文件HOST常量的值:%s,时间:%s'%(app.config['HOST']))
+    app.logger.info('输出配置文件HOST常量的值:%s'%(app.config['HOST']))
     return 'hello world'
 
 if(__name__ == '__main__'):
