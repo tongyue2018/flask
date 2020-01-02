@@ -13,7 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/flaskInterface/notifyTomplate" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/flaskInterface/serverJang" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Python 3.6 interpreter library" level="application" />
     <orderEntry type="module" module-name="vue-study-start" />
