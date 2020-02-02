@@ -2,6 +2,11 @@
 #根据isbn搜索
 #根据书籍名称搜索
 
+# API地址
+# http://t.yushu.im/v2/book/search?q={}&start={}&count={}
+# http://t.yushu.im/v2/book/isbn/{isbn}
+# https://api.douban.com/v2/book
+
 from flask import Flask,make_response
 
 app = Flask(__name__)
