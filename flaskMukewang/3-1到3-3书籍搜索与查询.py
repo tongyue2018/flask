@@ -8,21 +8,14 @@
 # https://api.douban.com/v2/book
 
 from flask import Flask,make_response
-
+from helper import is_isbn_or_key
 app = Flask(__name__)
 app.config.from_pyfile('../config.py')
 
-@app.route('/')
-def register():
-    response = make_response('<h1>hello world</h1>')
-    headers = {
-        'content-type':'text/plain' #说明不区分大小写
-    }
-    response.headers = headers
-    app.logger.info(response)
-    return response
-
+@app.route('/book/search/<q>/<page>')
+def search(q,page):
+    isbn_or_key = is_isbn_or_key(q)
+    pass
 
 if(__name__ == '__main__'):
     app.run(app.config['HOST'],5000,debug=True)
-
