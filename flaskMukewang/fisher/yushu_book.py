@@ -10,7 +10,6 @@ class YuShuBook:
     # @staticmethod
     def search_by_isbn(self,isbn):
         url = YuShuBook.isbn_url.format(isbn)
-        print(url)
         result = HttpRequest.get(url)
         return result
 

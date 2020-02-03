@@ -7,7 +7,7 @@
 # http://t.yushu.im/v2/book/isbn/{isbn}
 # https://api.douban.com/v2/book
 
-# http://127.0.0.1/book/search/9787501524044
+# http://127.0.0.1:5000/book/search/9787501524044/1
 
 from flask import Flask,make_response
 from helper import  is_isbn_or_key
