@@ -7,15 +7,17 @@
 # http://t.yushu.im/v2/book/isbn/{isbn}
 # https://api.douban.com/v2/book
 
+# http://t.yushu.im/v2/book/isbn/9787501524044
+
 from flask import Flask,make_response
-from fisher.helper import is_isbn_or_key
-from fisher.yushu_book import YuShuBook
+from helper import  is_isbn_or_key
+from yushu_book import YuShuBook
 import json
 
 app = Flask(__name__)
 app.config.from_pyfile('../../config.py')
 
-@app.route('/book/search/<q>/<page>') # 9787501524044
+@app.route('/book/search/<q>/<page>') #
 def search(q,page):
     isbn_or_key = is_isbn_or_key(q)
     abc = q
