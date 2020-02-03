@@ -7,7 +7,7 @@
 # http://t.yushu.im/v2/book/isbn/{isbn}
 # https://api.douban.com/v2/book
 
-# http://t.yushu.im/v2/book/isbn/9787501524044
+# http://127.0.0.1/book/search/9787501524044
 
 from flask import Flask,make_response
 from helper import  is_isbn_or_key
@@ -20,11 +20,11 @@ app.config.from_pyfile('../../config.py')
 @app.route('/book/search/<q>/<page>') #
 def search(q,page):
     isbn_or_key = is_isbn_or_key(q)
-    abc = q
+    yushubook = YuShuBook()
     if isbn_or_key == 'isbn':
-        result = YuShuBook.search_by_isbn(q)
+        result = yushubook.search_by_isbn(q)
     else:
-        result = YuShuBook.search_by_key(q)
+        result = yushubook.search_by_key(q)
     headers = {
         'Content-Type': 'application/json'
     }
