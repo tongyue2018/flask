@@ -9,15 +9,16 @@
 
 from flask import Flask,make_response
 from fisher.helper import is_isbn_or_key
-from yushu_book import YuShuBook
+from fisher.yushu_book import YuShuBook
 import json
 
 app = Flask(__name__)
-app.config.from_pyfile('../config.py')
+app.config.from_pyfile('../../config.py')
 
-@app.route('/book/search/<q>/<page>')
+@app.route('/book/search/<q>/<page>') # 9787501524044
 def search(q,page):
     isbn_or_key = is_isbn_or_key(q)
+    abc = q
     if isbn_or_key == 'isbn':
         result = YuShuBook.search_by_isbn(q)
     else:
