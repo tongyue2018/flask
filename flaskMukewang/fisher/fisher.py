@@ -29,6 +29,7 @@ def search(q,page):
     # 视图函数一定要返回字符串， 所以dict要序列化
     response = make_response(json.dumps(result))
     response.headers = headers
+    return response
 
 
 if(__name__ == '__main__'):

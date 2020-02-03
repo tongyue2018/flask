@@ -19,5 +19,3 @@ class YuShuBook:
         result = HttpRequest.get(url)
         return result
 
-y = YuShuBook()
-print(y.search_by_isbn('9787501524044'))
