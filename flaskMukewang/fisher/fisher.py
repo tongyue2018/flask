@@ -8,8 +8,9 @@
 # https://api.douban.com/v2/book
 
 from flask import Flask,make_response
-from helper import is_isbn_or_key
-
+from fisher.helper import is_isbn_or_key
+from yushu_book import YuShuBook
+import json
 
 app = Flask(__name__)
 app.config.from_pyfile('../config.py')
@@ -17,7 +18,17 @@ app.config.from_pyfile('../config.py')
 @app.route('/book/search/<q>/<page>')
 def search(q,page):
     isbn_or_key = is_isbn_or_key(q)
-    pass
+    if isbn_or_key == 'isbn':
+        result = YuShuBook.search_by_isbn(q)
+    else:
+        result = YuShuBook.search_by_key(q)
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    # 视图函数一定要返回字符串， 所以dict要序列化
+    response = make_response(json.dumps(result))
+    response.headers = headers
+
 
 if(__name__ == '__main__'):
     app.run(app.config['HOST'],5000,debug=True)

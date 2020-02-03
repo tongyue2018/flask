@@ -25,12 +25,17 @@ def register():
 
 if(__name__ == '__main__'):
     app.run(host=app.config['HOST'],port=5000,debug=True)
-#
-# 一、视图函数默认status code:200
+
+
+# 一、视图函数，return一定要返回字符串才能被识别
+
+# 二、视图函数默认status code:200
 # 可返回301和 location:"重定向地址"
-#
-# 二、视图函数默认header，第一个html
+
+
+# 三、视图函数默认header，第一个html
 # Content-Type:text/html
 # Content-Type:application/json
 # Content-Type:text/plain --普通字符
 # Content-Type:application/x-www-form-urlencoded -- 一般requests请求form表单接口时候用到。
+
