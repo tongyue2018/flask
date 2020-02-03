@@ -1,5 +1,5 @@
 import sys
-# sys.path.append('E:\\pythonProject\\python_study\\python初学\\初学(2)')
+# sys.path.append('E:\\pythonProject\\python_study\\pythonStart\\初学(2)')
 sys.path.append('../') #效果和上面绝对路径一致
 
 import time
