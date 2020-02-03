@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="nohup">
-      <change afterPath="$PROJECT_DIR$/importModuleStudy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudy/fisherStudy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudy/fisherStudy/fisher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudy/fisherStudy/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudy/fisherStudy/httpRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudy/fisherStudy/yushu_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudy/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudyDic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudyDic/fisherStudy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudyDic/fisherStudy/fisher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudyDic/fisherStudy/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudyDic/fisherStudy/httpRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudyDic/fisherStudy/yushu_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importModuleStudyDic/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
+    <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskInterface/interfaceCrossOrigin/interfaceStudyFlask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskInterface/serverJiang/NotifyBirthday.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskInterface/serverJiang/NotifyBirthday.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskMukewang/鱼书.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/鱼书.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importModuleStudy/fisherStudy/fisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/importModuleStudy/fisherStudy/fisher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importModuleStudyDic/fisherStudy/fisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/importModuleStudyDic/fisherStudy/fisher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -294,14 +278,8 @@
       <workItem from="1580711798901" duration="1242000" />
       <workItem from="1580713065202" duration="882000" />
       <workItem from="1580714014747" duration="1256000" />
-      <workItem from="1580715292787" duration="5107000" />
-    </task>
-    <task id="LOCAL-00003" summary="添加注释">
-      <created>1571835018465</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1571835018465</updated>
+      <workItem from="1580715292787" duration="5191000" />
+      <workItem from="1580728755393" duration="1014000" />
     </task>
     <task id="LOCAL-00004" summary="添加注释">
       <created>1571835104402</created>
@@ -639,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580718750945</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="nohup">
+      <created>1580720417621</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1580720417621</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -774,7 +759,7 @@
     <SUITE FILE_PATH="coverage/flask$requests_post_biaodan.coverage" NAME="requests-post-biaodan Coverage Results" MODIFIED="1577861495462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_study/python初学/8-requests" />
     <SUITE FILE_PATH="coverage/flask$py_11_class.coverage" NAME="py_11_class Coverage Results" MODIFIED="1580703488109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_study/python初学/2-类-文件-异常/类" />
     <SUITE FILE_PATH="coverage/flask$py_10_importPackage.coverage" NAME="py-10-importPackage Coverage Results" MODIFIED="1580712920156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_study/python初学/3-模块导包" />
-    <SUITE FILE_PATH="coverage/flask$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1580719628274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/importModuleStudyDic/fisherStudy" />
+    <SUITE FILE_PATH="coverage/flask$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1580729553986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/importModuleStudyDic/fisherStudy" />
     <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_fisher_fisher_py___1_.coverage" NAME="Flask (flaskMukewang/fisher/fisher.py) (1) Coverage Results" MODIFIED="1580714638536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flask$yushu_book.coverage" NAME="yushu_book Coverage Results" MODIFIED="1580715669757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_study/python初学/3-import-module/fisher" />
     <SUITE FILE_PATH="coverage/flask$requests_post_json.coverage" NAME="requests-post-json Coverage Results" MODIFIED="1577863214490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_study/python初学/8-requests" />

@@ -13,6 +13,9 @@ import sys
 sys.path.append('E:\python_study\pythonStart\import-module')
 print(sys.path)
 
+# 导包的两种方式
+# 一、在同一文件夹下，直接导入文件名字即可，命令行 和 pycharm执行都没问题
+# 二、如果不在同一文件夹下，需要从项目根目录开始写（不需要写项目目录名称） 如 importModuleStudyDic.fisherStudy.helper
 from importModuleStudy.fisherStudy.helper import  is_isbn_or_key
 from yushu_book import YuShuBook
 
