@@ -7,15 +7,13 @@ class YuShuBook:
     isbn_url = 'http://t.yushu.im/v2/book/isbn/{}'
     keyword_url = 'http://t.yushu.im/v2/book/search?q={}&start={}&count={}'
 
-    # @staticmethod
     def search_by_isbn(self,isbn):
         url = YuShuBook.isbn_url.format(isbn)
         result = HttpRequest.get(url)
         return result
 
-    @staticmethod
-    def search_by_key(self,keyWord,count=15,start=0):
-        url = self.keyword_url.format(keyWord,count,start)
+    def search_by_key(self,keyWord,start=0,count=15):
+        url = self.keyword_url.format(keyWord,start,count)
         result = HttpRequest.get(url)
         return result
 

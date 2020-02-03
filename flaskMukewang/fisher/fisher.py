@@ -24,7 +24,7 @@ def search(q,page):
     if isbn_or_key == 'isbn':
         result = yushubook.search_by_isbn(q)
     else:
-        result = yushubook.search_by_key(q)
+        result = yushubook.search_by_key(q,0,page)
     headers = {
         'Content-Type': 'application/json'
     }
