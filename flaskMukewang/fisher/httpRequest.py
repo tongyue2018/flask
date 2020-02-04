@@ -4,7 +4,7 @@ import requests
 class HttpRequest:
 
     @staticmethod
-    def get(url,return_json=True):
+    def getBook(url, return_json=True):
         # 第一种：返回restful 标准
         # 第二种：返回json
         response = requests.get(url)
