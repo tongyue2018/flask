@@ -7,11 +7,11 @@ class YuShuBook:
 
     def search_by_isbn(self,isbn):
         url = YuShuBook.isbn_url.format(isbn)
-        result = HttpRequest.getBook(url)
+        result = HttpRequest.getBookInfo(url)
         return result
 
     def search_by_key(self,keyWord,start=0,count=15):
         url = self.keyword_url.format(keyWord,start,count)
-        result = HttpRequest.getBook(url)
+        result = HttpRequest.getBookInfo(url)
         return result
 
