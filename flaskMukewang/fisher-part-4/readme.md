@@ -14,4 +14,4 @@
 > * 4-9 将模型映射到数据库中 
 > * 4-10 ORM与CodeFirst区别
 
-![lantu-logo](markdownFile/lantu.png)
+![lantu-logo](markdownImg/lantu.png)
