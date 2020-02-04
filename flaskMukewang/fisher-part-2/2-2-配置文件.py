@@ -2,7 +2,7 @@ from flask import Flask
 import sys
 
 app = Flask(__name__)
-app.config.from_pyfile('../config.py')
+app.config.from_pyfile('../config/config.py')
 
 @app.route('/')
 def register():
