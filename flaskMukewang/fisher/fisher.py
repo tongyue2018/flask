@@ -33,6 +33,5 @@ def search(q,page):
     response.headers = headers
     return response
 
-
 if(__name__ == '__main__'):
     app.run(app.config['HOST'],5000,debug=True)

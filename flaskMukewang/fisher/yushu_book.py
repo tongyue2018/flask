@@ -1,6 +1,4 @@
 
-import sys
-sys.path.append('./')
 from httpRequest import HttpRequest
 class YuShuBook:
 
