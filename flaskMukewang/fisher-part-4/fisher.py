@@ -14,7 +14,7 @@ from helper import is_isbn_or_key
 from yushu_book import YuShuBook
 
 app = Flask(__name__)
-app.config.from_pyfile('../../config.py')
+app.config.from_pyfile('../config/config.py')
 
 
 @app.route('/book/search/<q>/<page>')
