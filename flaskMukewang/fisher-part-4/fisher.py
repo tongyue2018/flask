@@ -11,7 +11,7 @@
 # 入口文件只做初始化和启动工作，视图函数根据拆分到对应单独文件中，一个项目可以有多个视图函数。
 from flask import Flask, jsonify
 
-
+#可以从包中导入其中__init__.py的方法、变量
 from app import create_app
 
 # app的初始化可以放到__init__文件中，导包方式如：from app import create_app
