@@ -4,11 +4,10 @@ from helper import is_isbn_or_key
 from yushu_book import YuShuBook
 
 
-# 蓝图机制 blueprint
-bookweb = Blueprint('bookweb',__name__)
+from app.web import web
 
 # @web.route进行注册
-@bookweb.route('/book/search/<q>/<page>')
+@web.route('/book/search/<q>/<page>')
 def search(q, page):
     isbn_or_key = is_isbn_or_key(q)
     yushubook = YuShuBook()

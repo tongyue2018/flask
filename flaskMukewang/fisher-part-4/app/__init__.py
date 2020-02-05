@@ -2,7 +2,7 @@
 # @Author : tongyue
 
 from flask import Flask
-from app.web.book import bookweb
+from app.web.book import web
 
 def create_app():
     app = Flask(__name__)
@@ -11,5 +11,5 @@ def create_app():
     return app
 
 def register_blueprint(app):
-    app.register_blueprint(bookweb)
+    app.register_blueprint(web)
 
