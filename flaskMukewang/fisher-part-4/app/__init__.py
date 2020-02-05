@@ -2,7 +2,9 @@
 # @Author : tongyue
 
 from flask import Flask
-from app.web.book import web
+# from app.web.book import web 改成如下
+from app.web import web
+
 
 def create_app():
     app = Flask(__name__)
