@@ -25,4 +25,3 @@ class HttpRequest:
         #         return {}
         #     else:
         #         return ''
-

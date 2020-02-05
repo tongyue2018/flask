@@ -2,6 +2,8 @@
 # @Author : tongyue
 
 from flask import Flask
+from app.web.book import bookweb
+
 def create_app():
     app = Flask(__name__)
     app.config.from_pyfile('../../config/config.py')
@@ -9,6 +11,5 @@ def create_app():
     return app
 
 def register_blueprint(app):
-    from app.web.book import bookweb
     app.register_blueprint(bookweb)
 
