@@ -21,11 +21,15 @@ from app.web import web
 '''
 @web.route('/book/search')
 def search():
+
+    # 至少1个字符，有长度限制。
     q = request.args['q']
+
+    #
     page = request.args['page']
 
     '''
-    
+    验证层
     '''
 
     isbn_or_key = is_isbn_or_key(q)
