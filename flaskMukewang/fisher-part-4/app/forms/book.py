@@ -5,7 +5,7 @@
 from wtforms import Form,StringField,IntegerField
 from wtforms.validators import Length,NumberRange
 
-class SearchForm(Form):
+class SearchForm(Form): #（继承Form 类，可以通过request.args传递参数过来）
     q = StringField(validators=[Length(min=1,max=30)])
     page = IntegerField(validators=[NumberRange(min=1,max=99)],default=1)
 '''
