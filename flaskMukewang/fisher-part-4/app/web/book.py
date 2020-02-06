@@ -27,12 +27,14 @@ def search():
 
     '''
     验证层,from app.forms.book import SearchForm
-
+    验证代码如下
     '''
-    forms = SearchForm(request.args)
-    if forms.validate():
-        q = forms.q.data
-        page = forms.page.data
+
+    form = SearchForm(request.args)
+    if form.validate():
+        q = form.q.data.strip() # 取值并去掉空格
+        page = form.page.data
+
         isbn_or_key = is_isbn_or_key(q)
         yushubook = YuShuBook()
         if isbn_or_key == 'isbn':
@@ -40,4 +42,6 @@ def search():
         else:
             result = yushubook.search_by_key(q, 0, page)
         return jsonify(result)
+    else:
+        return jsonify({"msg":"参数错误"})
 
