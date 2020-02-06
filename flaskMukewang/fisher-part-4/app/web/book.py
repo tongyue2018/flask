@@ -2,7 +2,7 @@
 from flask import jsonify,request
 from helper import is_isbn_or_key
 from yushu_book import YuShuBook
-
+from app.forms.book import SearchForm
 
 from app.web import web
 
@@ -22,21 +22,22 @@ from app.web import web
 @web.route('/book/search')
 def search():
 
-    # 至少1个字符，有长度限制。
-    q = request.args['q']
-
-    #
-    page = request.args['page']
+    # 至少1个字符，有长度限制。 q = request.args['q']
+    # 至少1个字符，正整数。 page = request.args['page']
 
     '''
-    验证层
-    '''
+    验证层,from app.forms.book import SearchForm
 
-    isbn_or_key = is_isbn_or_key(q)
-    yushubook = YuShuBook()
-    if isbn_or_key == 'isbn':
-        result = yushubook.search_by_isbn(q)
-    else:
-        result = yushubook.search_by_key(q, 0, page)
-    return jsonify(result)
+    '''
+    forms = SearchForm(request.args)
+    if forms.validate():
+        q = forms.q.data
+        page = forms.page.data
+        isbn_or_key = is_isbn_or_key(q)
+        yushubook = YuShuBook()
+        if isbn_or_key == 'isbn':
+            result = yushubook.search_by_isbn(q)
+        else:
+            result = yushubook.search_by_key(q, 0, page)
+        return jsonify(result)
 
