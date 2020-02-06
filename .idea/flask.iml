@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/flaskInterface/notifyTomplate" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/flaskInterface/serverJang" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/flaskMukewang/fisher-part-3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/flaskMukewang/fisher-part-4" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
