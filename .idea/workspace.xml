@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-4/app/web/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-4/app/web/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/鱼书.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/鱼书.xmind" afterDir="false" />
-    </list>
+    <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,14 +257,7 @@
       <workItem from="1580798274178" duration="14180000" />
       <workItem from="1580870230082" duration="2070000" />
       <workItem from="1580893190994" duration="13124000" />
-      <workItem from="1580950994290" duration="5396000" />
-    </task>
-    <task id="LOCAL-00034" summary="nohup">
-      <created>1577016367657</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1577016367657</updated>
+      <workItem from="1580950994290" duration="6025000" />
     </task>
     <task id="LOCAL-00035" summary="nohup">
       <created>1577016700119</created>
@@ -607,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580907912280</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="nohup">
+      <created>1580957393470</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1580957393471</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
