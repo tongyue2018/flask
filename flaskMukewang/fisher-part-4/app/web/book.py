@@ -1,7 +1,7 @@
 
 from flask import jsonify,request
-from helper import is_isbn_or_key
-from yushu_book import YuShuBook
+from app.lbs.helper import is_isbn_or_key
+from .yushu_book import YuShuBook
 from app.forms.book import SearchForm
 
 

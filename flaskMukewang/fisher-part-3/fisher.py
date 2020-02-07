@@ -10,8 +10,8 @@
 
 # 入口文件只做初始化和启动工作，视图函数根据拆分到对应单独文件中，一个项目可以有多个视图函数。
 from flask import Flask, jsonify
-from helper import is_isbn_or_key
-from yushu_book import YuShuBook
+from .helper import is_isbn_or_key
+from .yushu_book import YuShuBook
 
 app = Flask(__name__)
 app.config.from_pyfile('../config/config.py')

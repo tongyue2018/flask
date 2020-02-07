@@ -1,5 +1,5 @@
 
-from httpRequest import HttpRequest
+from .httpRequest import HttpRequest
 class YuShuBook:
 
     isbn_url = 'http://t.yushu.im/v2/book/isbn/{}'

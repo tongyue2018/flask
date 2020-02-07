@@ -1,5 +1,5 @@
 
-from httpRequest import HttpRequest
+from app.lbs.httpRequest import HttpRequest
 from flask import current_app
 
 class YuShuBook:
@@ -21,5 +21,5 @@ class YuShuBook:
 
 '''
 1.区分配置文件,PER_PAGE从配置文件setting.py中读取
-2.(page-1)*PER_PAGE抽离出函数currentPage
+2.(page-1)*current_app.config['PER_PAGE']抽离出函数currentPage
 '''
