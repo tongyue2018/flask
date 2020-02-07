@@ -3,4 +3,4 @@
 
 
 HOST = '0.0.0.0'
-PER_PAGE = 15
+PER_PAGE = 10
