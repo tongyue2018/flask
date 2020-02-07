@@ -4,6 +4,7 @@ from helper import is_isbn_or_key
 from yushu_book import YuShuBook
 from app.forms.book import SearchForm
 
+
 from app.web import web
 
 # @web.route进行注册
@@ -40,7 +41,7 @@ def search():
         if isbn_or_key == 'isbn':
             result = yushubook.search_by_isbn(q)
         else:
-            result = yushubook.search_by_key(q, 0, page)
+            result = yushubook.search_by_key(q)
         return jsonify(result)
     else:
         '''
