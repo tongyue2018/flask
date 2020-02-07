@@ -18,5 +18,8 @@ def readJson():
         jsonDic = json.loads(jsonData)
         print(jsonDic['bookName'])
 
+def operateJson():
+    pass
+
 writeJson()
 readJson()
