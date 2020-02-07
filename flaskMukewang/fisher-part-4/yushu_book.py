@@ -1,6 +1,6 @@
 
 from httpRequest import HttpRequest
-from app.setting import PER_PAGE
+from flask import current_app
 
 class YuShuBook:
     isbn_url = 'http://t.yushu.im/v2/book/isbn/{}'
@@ -12,12 +12,12 @@ class YuShuBook:
         return result
 
     def search_by_key(self,keyWord,page=1):
-        url = self.keyword_url.format(keyWord, self.calculate_start(page, PER_PAGE), PER_PAGE)
+        url = self.keyword_url.format(keyWord, self.calculate_start(page), current_app.config['PER_PAGE'])
         result = HttpRequest.getBookInfo(url)
         return result
 
-    def calculate_start(self, page, PER_PAGE):
-        return (page - 1) * PER_PAGE
+    def calculate_start(self, page):
+        return (page - 1) * current_app.config['PER_PAGE']
 
 '''
 1.区分配置文件,PER_PAGE从配置文件setting.py中读取

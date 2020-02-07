@@ -41,7 +41,7 @@ def search():
         if isbn_or_key == 'isbn':
             result = yushubook.search_by_isbn(q)
         else:
-            result = yushubook.search_by_key(q)
+            result = yushubook.search_by_key(q,page)
         return jsonify(result)
     else:
         '''
