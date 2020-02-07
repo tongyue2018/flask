@@ -14,4 +14,17 @@
 > * 4-9 将模型映射到数据库中 
 > * 4-10 ORM与CodeFirst区别
 
+> 4-1 -- 4-3蓝图
+
 ![lantu-logo](markdownImg/lantu.png)
+
+> 4-7 新建database配置
+
+![database-logo](markdownImg/database-setting.png)
+
+创建数据库方式：
+* Database First
+    * mysql客户端直接创建
+* Model First
+    * mysql客户端 模型选项去画表结构和表与表之间的关系，dba喜欢用
+* Code First
