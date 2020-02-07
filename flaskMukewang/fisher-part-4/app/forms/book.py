@@ -17,7 +17,7 @@ class SearchForm(Form): #（继承Form 类，可以通过request.args传递参�
 
 3. DataRequired()把 空格 空参数作为异常
 
-4. 常信息有默认 message：
+4. 常信息有默认 message：，调用层web.book.py：return form.errors
 {
   "q": [
     "Field must be between 1 and 30 characters long."
