@@ -43,5 +43,6 @@ def search():
             result = yushubook.search_by_key(q, 0, page)
         return jsonify(result)
     else:
-        return jsonify({"msg":"参数错误"})
+        return form.errors
+        # return jsonify({"msg":"参数错误"})
 
