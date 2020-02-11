@@ -3,8 +3,10 @@ from app.lbs.httpRequest import HttpRequest
 from flask import current_app
 
 class YuShuBook:
-    #模型层 MVC M层
-
+    '''
+    模型层 MVC M层,新建一个models文件夹，存放M层所有模型
+    MVC里面的M 处理建表，还有很多操作逻辑，多业务逻辑更放在M层
+    '''
     isbn_url = 'http://t.yushu.im/v2/book/isbn/{}'
     keyword_url = 'http://t.yushu.im/v2/book/search?q={}&start={}&count={}'
 

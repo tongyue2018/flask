@@ -5,6 +5,8 @@ from flask import Flask
 # from app.web.book import web 改成如下
 from app.web import web
 
+from app.models.book import db
+
 def create_app():
     app = Flask(__name__)
     register_blueprint(app)
@@ -16,6 +18,16 @@ def create_app():
     '''
     app.config.from_object('app.secure')
     app.config.from_object('app.setting')
+
+    '''
+    1. db与核心对象关联起来
+    2. SQLALCHEMY_DATABASE_URI='mysql+pymyql://root:Qwe123!!!@47.107.58.164:3306/fisher'
+    3. db.create_all()将所有模型（models文件夹下的模型）映射到数据库
+    secure.py中加入数据库配置即可
+    '''
+
+    db.init_app(app)
+    db.create_all(app=app)
     return app
 
 def register_blueprint(app):
