@@ -20,8 +20,8 @@ def create_app():
     app.config.from_object('app.setting')
 
     '''
-    1. db与核心对象关联起来
-    2. SQLALCHEMY_DATABASE_URI='mysql+pymyql://root:Qwe123!!!@47.107.58.164:3306/fisher'
+    1. db与核心对象app关联 db.init_app(app)
+    2. 数据库配置固定名称SQLALCHEMY_DATABASE_URI，无序调用app.config.from_object('app.secure')即可，SQLALCHEMY_DATABASE_URI='mysql+pymyql://root:Qwe123!!!@47.107.58.164:3306/fisher'
     3. db.create_all()将所有模型（models文件夹下的模型）映射到数据库
     secure.py中加入数据库配置即可
     '''

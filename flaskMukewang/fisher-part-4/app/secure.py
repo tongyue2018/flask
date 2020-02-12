@@ -7,6 +7,7 @@ DEBUG = True
 '''
 
 pymyql or cymql驱动需要pip安装
+fisher为database名称
 
 '''
 #cymysql SQLALCHEMY_DATABASE_URI='mysql+cymyql://root:Qwe123!!!@47.107.58.164:3306/fisher'
