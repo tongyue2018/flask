@@ -27,14 +27,33 @@ def create_app():
     '''
 
     db.init_app(app)
-    db.create_all(app=app)
+    db.create_all(app=app)  #看源码已贴在最下方 第1种：传入app  第2种：存在current_app，则把上下文推入当前栈即可，代码如下 with app.app_context(): 第3中db = SQLAlchemy(app=app)初始化的时候传入app
+    # with app.app_context():
+    #     db.create_all()
     return app
 
     '''
     b.create_all(app=app)  不加app=app则会报错， 见demo文件夹中上下文context学习
-
+    c.
     '''
 
 def register_blueprint(app):
     app.register_blueprint(web)
 
+
+
+'''
+    def get_app(self, reference_app=None):
+        """Helper method that implements the logic to look up an
+        application."""
+
+        if reference_app is not None:
+            return reference_app
+
+        if current_app:
+            return current_app._get_current_object()
+
+        if self.app is not None:
+            return self.app
+
+'''
