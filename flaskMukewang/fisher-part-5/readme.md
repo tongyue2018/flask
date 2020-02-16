@@ -11,9 +11,10 @@
 > * 5-5 详解上下文管理器的__exit__方法
 > * 阅读源码解决db.create_all的问题
 
-> 查看全局源码
+> 查看全局源码 以下文件都在flask文件夹中
+* app.py --flask核心对象
+* ctx.py --上下文源码
 
 ![lantu-logo](markdownImg/flask-code.png)
 
-
-
+![lantu-logo](markdownImg/ctx.png)

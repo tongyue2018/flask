@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/markdownImg/flask-code.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/demo/flaskContext.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/demo/flaskContext.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/demo/flaskNormalError.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/demo/flaskNormalError.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/markdownImg/database-setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/markdownImg/lantu.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-5/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskMukewang/fisher-part-5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskMukewang/fisher-part-5/markdownImg" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,11 +70,11 @@
       <recent name="E:\python_study\pythonStart\importModule\importTest\importDic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\flask\flaskMukewang\fisher-part-5\markdownImg" />
       <recent name="E:\flask\flaskMukewang\fisher-part-5" />
       <recent name="E:\flask\flaskMukewang\fisher-part-5\demo" />
       <recent name="E:\flask\flaskMukewang" />
       <recent name="E:\flask\flaskMukewang\fisher-part-4\spider" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-4\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,14 +265,7 @@
       <workItem from="1581662815706" duration="3550000" />
       <workItem from="1581731393867" duration="1202000" />
       <workItem from="1581751585204" duration="4719000" />
-      <workItem from="1581815732741" duration="1041000" />
-    </task>
-    <task id="LOCAL-00056" summary="nohup">
-      <created>1580741285595</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1580741285595</updated>
+      <workItem from="1581815732741" duration="2293000" />
     </task>
     <task id="LOCAL-00057" summary="nohup">
       <created>1580782619608</created>
@@ -616,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581758469599</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="nohup">
+      <created>1581816796973</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1581816796974</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
