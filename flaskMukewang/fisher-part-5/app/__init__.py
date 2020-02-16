@@ -30,6 +30,12 @@ def create_app():
     db.create_all(app=app)
     return app
 
+    '''
+    b.create_all(app=app)  不加app=app则会报错， 见demo文件夹中上下文context学习
+
+    
+    '''
+
 def register_blueprint(app):
     app.register_blueprint(web)
 

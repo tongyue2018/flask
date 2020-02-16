@@ -1,30 +1,19 @@
-# 欢迎进入第四章-蓝图、模型、CodeFirst
+# 欢迎进入第五章-Flask 核心机制
 ----
 
-第4章 **蓝图、模型、CodeFirst**:
+第5章 **Flask** 核心机制:
 
-> * 4-1 应用、蓝图与视图函数
-> * 4-2 用蓝图注册视图函数
-> * 4-3 单蓝图多模块拆分视图函数
-> * 4-4 request 对象
-> * 4-5 WTForms参数验证
-> * 4-6 拆分配置文件
-> * 4-7 Model First、Database First与Code First
-> * 4-8 定义第一个模型类
-> * 4-9 将模型映射到数据库中 
-> * 4-10 ORM与CodeFirst区别
 
-> 4-1 -- 4-3蓝图
+> * 5-1 flask中经典错误 working outside application context
+> * 5-2 AppContext、RequestContext、Flask与Request之间的关系
+> * 5-3 详解flask上下文与出入栈
+> * 5-4 flask上下文与with语句
+> * 5-5 详解上下文管理器的__exit__方法
+> * 阅读源码解决db.create_all的问题
 
-![lantu-logo](markdownImg/lantu.png)
+> 查看全局源码
 
-> 4-7 新建database配置
+![lantu-logo](markdownImg/flask-code.png)
 
-![database-logo](markdownImg/database-setting.png)
 
-创建数据库方式：
-* Database First
-    * mysql客户端直接创建
-* Model First
-    * mysql客户端 模型选项去画表结构和表与表之间的关系，dba喜欢用
-* Code First
+
