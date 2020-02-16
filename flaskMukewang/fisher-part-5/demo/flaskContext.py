@@ -20,8 +20,17 @@ app = Flask(__name__)
 * Request -- 保存一些请求信息
 * RequextContext -- 对Request进行封装， 并有额外的方法pop push 入栈 出栈
 
+5.从请求进来的 Flask会判断app核心对象的栈是不是空，如果空，会把上下文appContext push进去，所以视图函数分支的代码不会有此问题
+
+6.如果右键运行的，没有上下文推送会有这个问题，一般适用于单元测试。
+
 '''
+
+#保证栈顶不为空 完成入站
+ctx = app.app_context()
+ctx.push()
+
 a = current_app
 b = current_app.config['DEBUG']
 
-
+ctx.pop()
