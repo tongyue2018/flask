@@ -8,7 +8,7 @@ DEBUG = True
 
 pymyql or cymql驱动需要pip安装
 fisher为database名称
-
+支持多数据库 分布式数据库
 '''
 
 

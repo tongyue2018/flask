@@ -14,6 +14,7 @@ from flask_sqlalchemy import SQLAlchemy
 注意：
 1.基础的Column,Integer,String是从sqlalchemy中导入的
 2.映射到数据库SQLAlchemy,是从flask_sqlalchemy中导入的
+3.sqlalchemy支持多数据库  分布式数据库
 '''
 
 db = SQLAlchemy()
