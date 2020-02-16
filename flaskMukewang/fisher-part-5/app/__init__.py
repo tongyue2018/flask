@@ -30,6 +30,7 @@ def create_app():
     db.create_all(app=app)  #看源码已贴在最下方 第1种：传入app  第2种：存在current_app，则把上下文推入当前栈即可，代码如下 with app.app_context(): 第3中db = SQLAlchemy(app=app)初始化的时候传入app
     # with app.app_context():
     #     db.create_all()
+
     return app
 
     '''
