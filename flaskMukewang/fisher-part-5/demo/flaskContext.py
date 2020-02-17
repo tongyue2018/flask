@@ -2,7 +2,7 @@
 # @Author : tongyue
 
 
-from flask import Flask,current_app,request
+from flask import Flask,current_app
 
 app = Flask(__name__)
 
@@ -16,6 +16,7 @@ app = Flask(__name__)
 4.查看全局源码： External - Libararies - python - site-packages
 
 * Flask--配置信息 路由等等
+
 * AppContext--对Flask封装 并有额外的方法pop push等 入栈 出栈
 * Request -- 保存一些请求信息
 * RequextContext -- 对Request进行封装， 并有额外的方法pop push 入栈 出栈

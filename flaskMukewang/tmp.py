@@ -2,6 +2,7 @@
 
 import  json
 
+
 dictData = {
     "bookName":"yushu",
     "bookType":"ISBN"
@@ -21,5 +22,5 @@ def readJson():
 def operateJson():
     pass
 
-writeJson()
-readJson()
+
+

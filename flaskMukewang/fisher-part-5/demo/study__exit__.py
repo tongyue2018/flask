@@ -16,13 +16,14 @@ class MyResource:
 
         print('close resource')
 
-        return True # 默认会False 抛出异常到外面，选择True则不会向外部抛出异常 而是在__exit__内部处理
+        return True  # 默认会False 抛出异常到外面，选择True则不会向外部抛出异常 而是在__exit__内部处理
 
     def query(self):
         print('query data')
 
+
 with MyResource() as myresouce:
-    1/0
+    1 / 0
     myresouce.query()
 
 '''
