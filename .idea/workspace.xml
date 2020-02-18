@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="nohup">
+    <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/forms/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/lbs/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/lbs/httpRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/models/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/secure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/spider/yushu_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/web/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/web/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/app/web/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/flaskContext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/flaskNormalError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/openUsage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/study__exit__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/withUsage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/withUsage_as.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/fisher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/markdownImg/ctx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/markdownImg/flask-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/markdownImg/pop_push.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/yushu_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskMukewang/fisher-part-5/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskMukewang" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,7 +74,8 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/flaskMukewang" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -61,19 +87,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\flask\flaskMukewang" />
+      <recent name="E:\flask\flaskMukewang\fisher-part-5\markdownImg" />
+      <recent name="E:\flask\flaskMukewang\fisher-part-5\demo" />
+      <recent name="E:\flask\flaskMukewang\fisher-part-5" />
+      <recent name="E:\flask\flaskMukewang\fisher-part-4\spider" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\flask\flaskMukewang\fisher-part-5\markdownImg" />
       <recent name="E:\flask\flaskMukewang\fisher-part-4\app" />
       <recent name="E:\flask\flaskMukewang\fisher-part-4\markdownImg" />
       <recent name="E:\flask\flaskMukewang\fisher-part-4\lbs" />
       <recent name="E:\python_study\pythonStart\importModule\importTest\importDic" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\flask\flaskMukewang\fisher-part-5\demo" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-5\markdownImg" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-5" />
-      <recent name="E:\flask\flaskMukewang" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-4\spider" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,20 +290,11 @@
       <workItem from="1581731393867" duration="1202000" />
       <workItem from="1581751585204" duration="4719000" />
       <workItem from="1581815732741" duration="9336000" />
-    </task>
-    <task id="LOCAL-00064" summary="nohup">
-      <created>1580803393259</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1580803393259</updated>
-    </task>
-    <task id="LOCAL-00065" summary="nohup">
-      <created>1580804002331</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1580804002331</updated>
+      <workItem from="1581931258124" duration="803000" />
+      <workItem from="1581948948564" duration="4703000" />
+      <workItem from="1581987193431" duration="1554000" />
+      <workItem from="1582028682332" duration="1410000" />
+      <workItem from="1582032550151" duration="771000" />
     </task>
     <task id="LOCAL-00066" summary="nohup">
       <created>1580804066287</created>
@@ -608,7 +625,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581824929466</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="nohup">
+      <created>1581931304850</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1581931304850</updated>
+    </task>
+    <task id="LOCAL-00114" summary="nohup">
+      <created>1582032441067</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1582032441068</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,6 +648,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/flask/flaskMukewang" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -625,6 +681,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
     <option name="RECENT_FILTERS">
       <map>
