@@ -19,5 +19,5 @@
 > * 6-13 flask中被线程隔离的对象
 > * 6-14 梳理串接flask的一些名词
 
-![lantu-logo](markdownImg/flask-code.png)
+![lantu-logo](markdownImg/pop_push.png)
 
