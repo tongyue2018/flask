@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/LocalStackUsage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/LocalUsage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/flaskThread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/localStackUsage2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/mainThreadName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/forms/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/lbs/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/lbs/httpRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/models/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/secure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/spider/yushu_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/web/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/web/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/web/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/LocalStackUsage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/LocalUsage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/flaskThread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/localStackUsage2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/mainThreadName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/fisher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/ctx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/flask-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/localStack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/pop_push.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/yushu_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/flaskContext.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/flaskNormalError.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/study__exit__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/withUsage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo/withUsage_as.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/fisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/fisher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskMukewang" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,19 +88,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\flask\flaskMukewang\fisher-part-6\demo" />
-      <recent name="E:\flask\flaskMukewang" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-5\markdownImg" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-5\demo" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-5" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\flask\flaskMukewang\fisher-part-6\markdownImg" />
       <recent name="E:\flask\flaskMukewang\test" />
       <recent name="E:\flask\flaskMukewang\fisher-part-5\markdownImg" />
       <recent name="E:\flask\flaskMukewang\fisher-part-4\app" />
       <recent name="E:\flask\flaskMukewang\fisher-part-4\markdownImg" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-4\lbs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\flask\flaskMukewang" />
+      <recent name="E:\flask\flaskMukewang\fisher-part-6\demo" />
+      <recent name="E:\flask\flaskMukewang\fisher-part-5\markdownImg" />
+      <recent name="E:\flask\flaskMukewang\fisher-part-5\demo" />
+      <recent name="E:\flask\flaskMukewang\fisher-part-5" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -167,21 +182,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (flaskMukewang/fisher-part-6/fisher.py) (1)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
-      <module name="flask" />
-      <option name="target" value="$PROJECT_DIR$/flaskMukewang/fisher-part-6/fisher.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="Flask (flaskMukewang/fisher-part-6/fisher.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <option name="flaskDebug" value="true" />
       <module name="flask" />
@@ -190,7 +190,22 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (flaskMukewang/fisher-part-6/fisher.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="flask" />
+      <option name="target" value="$PROJECT_DIR$/flaskMukewang/fisher-part-6/fisher.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -287,21 +302,7 @@
       <workItem from="1582099211576" duration="5255000" />
       <workItem from="1582123070047" duration="3220000" />
       <workItem from="1582164406284" duration="5004000" />
-      <workItem from="1582182617800" duration="2910000" />
-    </task>
-    <task id="LOCAL-00068" summary="nohup">
-      <created>1580805847270</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1580805847270</updated>
-    </task>
-    <task id="LOCAL-00069" summary="nohup">
-      <created>1580809644905</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1580809644905</updated>
+      <workItem from="1582182617800" duration="4096000" />
     </task>
     <task id="LOCAL-00070" summary="nohup">
       <created>1580809728201</created>
@@ -632,7 +633,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582103926661</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="nohup">
+      <created>1582186431157</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1582186431157</updated>
+    </task>
+    <task id="LOCAL-00118" summary="nohup">
+      <created>1582187958581</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1582187958581</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
