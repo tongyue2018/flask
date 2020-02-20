@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskMukewang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../studyDocument" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -204,7 +206,6 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.Flask (flaskMukewang/fisher-part-6/fisher.py)" />
-      <item itemvalue="Flask server.Flask (flaskMukewang/fisher-part-6/fisher.py) (1)" />
       <item itemvalue="Python.LocalUsage" />
       <item itemvalue="Python.LocalStackUsage" />
       <item itemvalue="Python.localStackUsage2" />
@@ -214,7 +215,6 @@
         <item itemvalue="Python.localStackUsage2" />
         <item itemvalue="Python.LocalStackUsage" />
         <item itemvalue="Python.LocalUsage" />
-        <item itemvalue="Flask server.Flask (flaskMukewang/fisher-part-6/fisher.py) (1)" />
         <item itemvalue="Flask server.Flask (flaskMukewang/fisher-part-6/fisher.py)" />
       </list>
     </recent_temporary>
@@ -291,28 +291,9 @@
       <workItem from="1582099211576" duration="5255000" />
       <workItem from="1582123070047" duration="3220000" />
       <workItem from="1582164406284" duration="5004000" />
-      <workItem from="1582182617800" duration="6932000" />
-    </task>
-    <task id="LOCAL-00072" summary="nohup">
-      <created>1580814418146</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1580814418146</updated>
-    </task>
-    <task id="LOCAL-00073" summary="nohup">
-      <created>1580870652883</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1580870652883</updated>
-    </task>
-    <task id="LOCAL-00074" summary="nohup">
-      <created>1580893373972</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1580893373973</updated>
+      <workItem from="1582182617800" duration="8626000" />
+      <workItem from="1582199911738" duration="1626000" />
+      <workItem from="1582203218949" duration="610000" />
     </task>
     <task id="LOCAL-00075" summary="nohup">
       <created>1580895241982</created>
@@ -636,7 +617,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582188763693</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="nohup">
+      <created>1582191466698</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1582191466698</updated>
+    </task>
+    <task id="LOCAL-00122" summary="nohup">
+      <created>1582191539153</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1582191539153</updated>
+    </task>
+    <task id="LOCAL-00123" summary="nohup">
+      <created>1582191598297</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1582191598297</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

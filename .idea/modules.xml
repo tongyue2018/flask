@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/flask.iml" filepath="$PROJECT_DIR$/.idea/flask.iml" />
       <module fileurl="file://$PROJECT_DIR$/../python_study/.idea/py_pyCharm1.iml" filepath="$PROJECT_DIR$/../python_study/.idea/py_pyCharm1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" filepath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../studyDocument/.idea/studyDocument.iml" filepath="$PROJECT_DIR$/../studyDocument/.idea/studyDocument.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vue-study-start/vue-study-start.iml" filepath="$PROJECT_DIR$/../vue-study-start/vue-study-start.iml" />
     </modules>
   </component>

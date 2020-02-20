@@ -20,6 +20,7 @@
     <orderEntry type="module" module-name="vue-study-start" />
     <orderEntry type="module" module-name="pythonSpider" />
     <orderEntry type="module" module-name="py_pyCharm1" />
+    <orderEntry type="module" module-name="studyDocument" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
