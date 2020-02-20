@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/forms/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/lbs/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/lbs/httpRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/models/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/secure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/setting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/spider/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/spider/yushu_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/web/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/web/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/app/web/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/LocalStackUsage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/LocalUsage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/flaskThread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/localStackUsage2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/demo/mainThreadName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/fisher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/ctx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/flask-code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/localStack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/pop_push.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/yushu_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-6/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/ctx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/flask-code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/localStack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/markdownImg/pop_push.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-7/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -302,14 +281,7 @@
       <workItem from="1582099211576" duration="5255000" />
       <workItem from="1582123070047" duration="3220000" />
       <workItem from="1582164406284" duration="5004000" />
-      <workItem from="1582182617800" duration="4096000" />
-    </task>
-    <task id="LOCAL-00070" summary="nohup">
-      <created>1580809728201</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1580809728201</updated>
+      <workItem from="1582182617800" duration="4449000" />
     </task>
     <task id="LOCAL-00071" summary="nohup">
       <created>1580809838019</created>
@@ -647,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582187958581</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="nohup">
+      <created>1582188421319</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1582188421319</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
