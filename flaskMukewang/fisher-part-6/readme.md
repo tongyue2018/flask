@@ -21,3 +21,4 @@
 
 ![lantu-logo](markdownImg/pop_push.png)
 
+![lantu-logo](markdownImg/localStack.png)
