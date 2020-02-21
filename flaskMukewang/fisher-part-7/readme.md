@@ -10,6 +10,4 @@
 > * 7-7 从json序列化看代码解释权反转 
 > * 7-8 详解单页面与网站的区别
 
-![lantu-logo](markdownImg/pop_push.png)
-
-![lantu-logo](markdownImg/localStack.png)
+![](markdownImg/pop_push.png)
