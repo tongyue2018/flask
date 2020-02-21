@@ -3,7 +3,7 @@ from flask import jsonify,request
 from app.lbs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
 from app.forms.book import SearchForm
-
+from app.viewModels.book import BookViewModel
 
 from app.web import web
 
@@ -40,6 +40,7 @@ def search():
         yushubook = YuShuBook()
         if isbn_or_key == 'isbn':
             result = yushubook.search_by_isbn(q)
+            result = Book
         else:
             result = yushubook.search_by_key(q,page)
         return jsonify(result)

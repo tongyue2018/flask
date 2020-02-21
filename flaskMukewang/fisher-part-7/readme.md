@@ -10,4 +10,7 @@
 > * 7-7 从json序列化看代码解释权反转 
 > * 7-8 详解单页面与网站的区别
 
-![](markdownImg/pop_push.png)
+1. UI效果图，方便根据需求写API
+![](markdownImg/xuqiu.png)
+2. ViewModel概念
+![](markdownImg/viewModel.png)
