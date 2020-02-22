@@ -1,6 +1,6 @@
 import json
 
-from flask import jsonify,request
+from flask import jsonify, request, render_template
 from app.lbs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
 from app.forms.book import SearchForm
@@ -63,4 +63,22 @@ def search():
         '''
         return form.errors
         # return jsonify({"msg":"参数错误"})
+
+'''
+引入模板html
+'''
+@web.route('/test')
+def test():
+    dictData = {
+        'name':'tongyue',
+        'age':18
+    }
+
+    dictData1 = {
+
+    }
+
+    # render_template用来填充html模板 /app/templates/test.html
+    # http://127.0.0.1:5000/test
+    return render_template('test.html',data = dictData,data1 = dictData1)
 

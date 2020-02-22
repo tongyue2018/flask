@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{#
+
+1. Jinja2渲染和填充数据，是一个模板语言
+2. 对象和字典都可以用data.name 或者data['name']访问
+3. 推荐使用.
+
+4.http://127.0.0.1:5000/test
+
+#}
+    {{ data.name }} : {{ data.age }}
+</br>
+    {{ data['name'] }} : {{ data['age'] }}
+
+
+<div>---------if循环---------</div>
+{% if data.age == 19 %}
+    找到了19的人：{{ data.name }}
+    <ul></ul> {# 可以控制标签是否展示 #}
+{% elif data.age == 18 %}
+    找到了18的人：{{ data.name }}
+{% else %}
+    他不是19随的人：{{ data.name }}
+{% endif %}
+
+
+<div>---------for循环遍历列表---------</div>
+{% for foo in [{'name':'daniu','age':20},{'name':'xiaoniu','age':21}] %}
+    {{ foo.name }}--{{ foo.age }}
+    <div></div>
+{% endfor %}
+
+
+<div>---------for循环遍历字典---------</div>
+{% for key,value in data.items() %}
+    {{ key }}--{{ value }}
+{% endfor %}
+
+
+</body>
+</html>

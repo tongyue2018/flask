@@ -15,5 +15,5 @@
 > * 8-12 页面结构解析
 
 
-1.页面数据渲染
-![](markdownImg/render.png)
+1.Jinjia2模板引擎语言 用来给html渲染数据
+![](markdownImg/Jinjia2.png)
