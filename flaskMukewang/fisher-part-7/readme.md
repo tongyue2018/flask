@@ -16,3 +16,5 @@
 ![](markdownImg/viewModel.png)
 3.对象序列化
 ![](markdownImg/obj_dumps.png)
+4.页面数据渲染
+![](markdownImg/render.png)
