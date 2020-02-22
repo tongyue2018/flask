@@ -1,10 +1,11 @@
+import json
 
 from flask import jsonify,request
 from app.lbs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
 from app.forms.book import SearchForm
-from app.viewModels.book import BookViewModel
-
+from app.view_models.book import BookViewModel
+from app.view_models.book import BookCollection
 from app.web import web
 
 # @web.route进行注册
@@ -32,18 +33,30 @@ def search():
     '''
 
     form = SearchForm(request.args)
+    books = BookCollection()
     if form.validate():
         q = form.q.data.strip() # 取值并去掉空格
         page = form.page.data
-
         isbn_or_key = is_isbn_or_key(q)
         yushubook = YuShuBook()
+
         if isbn_or_key == 'isbn':
-            result = yushubook.search_by_isbn(q)
-            result = Book
+            yushubook.search_by_isbn(q)
         else:
-            result = yushubook.search_by_key(q,page)
-        return jsonify(result)
+            yushubook.search_by_key(q,page)
+
+        books.fill(yushubook,q)
+        '''
+        return jsonify(books.__dict__)  
+        不能直接序列化books对象 bookCollection下面的self.books是由其他对象赋值
+        如果bookCollection的属性都是普通的字符 数字，则可以对books.__dict__进行序列化
+        
+        '''
+
+        #对象序列化，需要传入1个函数，把所有涉及的对象转化成dict
+        return json.dumps(books,default=lambda o: o.__dict__)
+
+
     else:
         '''
         form异常返回

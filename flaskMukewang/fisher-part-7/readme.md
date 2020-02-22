@@ -14,3 +14,5 @@
 ![](markdownImg/xuqiu.png)
 2. ViewModel概念
 ![](markdownImg/viewModel.png)
+3.对象序列化
+![](markdownImg/obj_dumps.png)
