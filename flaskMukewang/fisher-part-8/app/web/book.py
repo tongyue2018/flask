@@ -82,3 +82,20 @@ def test():
     # http://127.0.0.1:5000/test
     return render_template('test.html',data = dictData,data1 = dictData1)
 
+'''
+引入模板html,sub1继承了layout.html
+'''
+@web.route('/sub')
+def sub():
+    dictData = {
+        'name':'tongyue',
+        'age':18
+    }
+
+    dictData1 = {
+
+    }
+
+    # render_template用来填充html模板 /app/templates/sub.html
+    # http://127.0.0.1:5000/sub
+    return render_template('sub',data = dictData,data1 = dictData1)

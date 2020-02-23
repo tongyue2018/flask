@@ -19,29 +19,35 @@
 </br>
     {{ data['name'] }} : {{ data['age'] }}
 
+</br></br>
 
-<div>---------if循环---------</div>
-{% if data.age == 19 %}
-    找到了19的人：{{ data.name }}
-    <ul></ul> {# 可以控制标签是否展示 #}
-{% elif data.age == 18 %}
-    找到了18的人：{{ data.name }}
-{% else %}
-    他不是19随的人：{{ data.name }}
-{% endif %}
+    <div>---------if循环---------</div>
+    {% if data.age == 19 %}
+        找到了19的人：{{ data.name }}
+        <ul></ul> {# 可以控制标签是否展示 #}
+    {% elif data.age == 18 %}
+        找到了18的人：{{ data.name }}
+    {% else %}
+        他不是19随的人：{{ data.name }}
+    {% endif %}
+
+</br></br>
+
+    <div>---------for循环遍历列表---------</div>
+    {% for foo in [{'name':'daniu','age':20},{'name':'xiaoniu','age':21}] %}
+        {{ foo.name }}--{{ foo.age }}
+        <div></div>
+    {% endfor %}
+
+</br></br>
+    <div>---------for循环遍历字典---------</div>
+    {% for key,value in data.items() %}
+        {{ key }}--{{ value }}
+    {% endfor %}
+
+</br></br>
 
 
-<div>---------for循环遍历列表---------</div>
-{% for foo in [{'name':'daniu','age':20},{'name':'xiaoniu','age':21}] %}
-    {{ foo.name }}--{{ foo.age }}
-    <div></div>
-{% endfor %}
-
-
-<div>---------for循环遍历字典---------</div>
-{% for key,value in data.items() %}
-    {{ key }}--{{ value }}
-{% endfor %}
 
 
 </body>

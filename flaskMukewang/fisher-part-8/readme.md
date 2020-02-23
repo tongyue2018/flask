@@ -17,3 +17,5 @@
 
 1.Jinjia2模板引擎语言 用来给html渲染数据
 ![](markdownImg/Jinjia2.png)
+
+2.Jinjia2循环等见demo
