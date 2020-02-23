@@ -47,7 +47,7 @@ def search():
 
         books.fill(yushubook,q)
         '''
-        return jsonify(books.__dict__)  
+        return jsonify(books.__dict__)
         不能直接序列化books对象 bookCollection下面的self.books是由其他对象赋值
         如果bookCollection的属性都是普通的字符 数字，则可以对books.__dict__进行序列化
         
@@ -67,13 +67,14 @@ def search():
 '''
 引入模板html
 '''
+
 @web.route('/test')
 def test():
     dictData = {
         'name':'tongyue',
-        'age':18
+        'age':18,
+        'content':None
     }
-
     dictData1 = {
 
     }
@@ -85,6 +86,7 @@ def test():
 '''
 引入模板html,sub继承了layout.html
 '''
+
 @web.route('/sub')
 def sub():
     dictData = {

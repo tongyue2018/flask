@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="nohup">
+    <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/app/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/app/templates/sub.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/app/templates/sub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/app/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/app/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/app/web/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/app/web/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/demo/imageAccess.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-8/demo/imageAccess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -287,14 +285,8 @@
       <workItem from="1582297354746" duration="1740000" />
       <workItem from="1582331617046" duration="6957000" />
       <workItem from="1582352544362" duration="5688000" />
-      <workItem from="1582425201513" duration="3931000" />
-    </task>
-    <task id="LOCAL-00083" summary="nohup">
-      <created>1580957393470</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1580957393471</updated>
+      <workItem from="1582425201513" duration="3989000" />
+      <workItem from="1582443545468" duration="2985000" />
     </task>
     <task id="LOCAL-00084" summary="nohup">
       <created>1580965011758</created>
@@ -632,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582427904746</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="nohup">
+      <created>1582429186460</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1582429186460</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,7 +844,7 @@
     <SUITE FILE_PATH="coverage/flask$fisher__1_.coverage" NAME="fisher (1) Coverage Results" MODIFIED="1581059872971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/importModuleStudy/fisherStudy" />
     <SUITE FILE_PATH="coverage/flask$mainA__1_.coverage" NAME="mainA (1) Coverage Results" MODIFIED="1580904857179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/importTest" />
     <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_fisher_part_3_fisher_py_.coverage" NAME="Flask (flaskMukewang/fisher-part-3/fisher.py) Coverage Results" MODIFIED="1581059540538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_fisher_part_8_fisher_py_.coverage" NAME="Flask (flaskMukewang/fisher-part-8/fisher.py) Coverage Results" MODIFIED="1582428606488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_fisher_part_8_fisher_py_.coverage" NAME="Flask (flaskMukewang/fisher-part-8/fisher.py) Coverage Results" MODIFIED="1582443777360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$py_10_importPackage.coverage" NAME="py-10-importPackage Coverage Results" MODIFIED="1580712920156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_study/python初学/3-模块导包" />
     <SUITE FILE_PATH="coverage/flask$localStackUsage2.coverage" NAME="localStackUsage2 Coverage Results" MODIFIED="1582184918148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskMukewang/fisher-part-6/demo" />
     <SUITE FILE_PATH="coverage/flask$Flask__flaskMukewang_fisher_part_4_fisher_py_.coverage" NAME="Flask (flaskMukewang/fisher-part-4/fisher.py) Coverage Results" MODIFIED="1580814211354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

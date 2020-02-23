@@ -47,6 +47,15 @@
 
 </br></br>
 
+<div>---------defalt过滤器 render返回字符不存在的时候给默认值---------</div>
+    {{ data.school | default('默认value,school不存在') }}
+    {% for key,value in data.items() %}
+        {{ key }}--{{ value or '默认value'}}
+    {% endfor %}
+    长度：{{ data | length() }}
+
+</br></br>
+
 
 
 
