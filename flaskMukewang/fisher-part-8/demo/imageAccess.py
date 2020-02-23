@@ -26,8 +26,11 @@ web = Blueprint('web', __name__,static_folder='view_models/statics'，static_url
 默认在 根目录/web/static
 
 
-5.template_folder 指定应用模板文件夹位置，
+5.template_folder 指定应用模板文件夹位置，默认 app/templates
 app = Flask(__name__,template_folder=)
+
+web = Blueprint(),也可以在蓝图中， 默认是app/templates
+
 '''
 
 # 目录位置：
