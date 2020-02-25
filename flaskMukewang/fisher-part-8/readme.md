@@ -18,4 +18,15 @@
 1.Jinjia2模板引擎语言 用来给html渲染数据
 ![](markdownImg/Jinjia2.png)
 
-2.Jinjia2循环等见demo
+2. Jinjia2过滤器
+![](markdownImg/filters.png)
+
+
+3.消息闪现
+![](markdownImg/flash-init.png)
+
+![](markdownImg/flash-get.png)
+
+![](markdownImg/flash-secure.png)
+
+.Jinjia2循环等见demo

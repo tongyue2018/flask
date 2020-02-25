@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+{#    以下方式static位置改变只有 引用地址都需要改变#}
+{#    <link rel="stylesheet" href="static/test.css">#}
+{#    http://127.0.0.1:5000/test
+
+
+url_for是通过endpoint反向构建url， static是静态文件目录名称  filename是引入文件的名称，
+使用不仅这一个场景 涉及到路径位置的比如图片等等都可以用，render_for不可以用 }}
+#}
+    <link rel="stylesheet" href="{{ url_for('static',filename='test.css') }}"/>
 </head>
 <body>
 
@@ -30,6 +40,13 @@
     {% else %}
         他不是19随的人：{{ data.name }}
     {% endif %}
+
+ <div>---------消息闪现 变量设置---------</div>
+</br></br>
+
+{#引用 视图函数中的消息闪现  视图函数中加入flash('内容')，secure.py中设置密钥SECRET_KEY，唯一字符串即可 #}
+    {% set messages = get_flashed_messages() %}
+    消息闪现: {{ messages }}
 
 </br></br>
 

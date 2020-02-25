@@ -1,6 +1,6 @@
 import json
 
-from flask import jsonify, request, render_template
+from flask import jsonify, request, render_template, flash
 from app.lbs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
 from app.forms.book import SearchForm
@@ -78,6 +78,8 @@ def test():
     dictData1 = {
 
     }
+    flash('hello,qiyue')
+    flash('hello,tongyue')
 
     # render_template用来填充html模板 /app/templates/test.html
     # http://127.0.0.1:5000/test

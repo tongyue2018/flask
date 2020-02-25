@@ -18,4 +18,4 @@ SQLALCHEMY_DATABASE_URI= "mysql+pymysql://%s:%s@%s:%s/fisher" %("root","Qwe123!!
 #cymysql SQLALCHEMY_DATABASE_URI='mysql+cymyql://root:Qwe123!!!@47.107.58.164:3306/fisher'
 
 
-
+SECRET_KEY = 'FSAFSDFSDFSDFSDFADSDS!@#%&*(_'
