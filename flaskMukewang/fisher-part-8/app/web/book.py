@@ -54,20 +54,27 @@ def search():
         '''
 
         #对象序列化，需要传入1个函数，把所有涉及的对象转化成dict
-        return json.dumps(books,default=lambda o: o.__dict__)
-
-
+        # return json.dumps(books,default=lambda o: o.__dict__)
     else:
         '''
         form异常返回
         '''
-        return form.errors
+        # return form.errors
         # return jsonify({"msg":"参数错误"})
 
-'''
-引入模板html
-'''
+        '''
+        消息闪现
+        '''
+        flash('关键字不符合要求，请重新输入')
 
+    return render_template('search_result.html', books=books)
+
+@web.route('/book/<isbn>/detail')
+def book_detail(isbn):
+    pass
+
+
+# 引入模板html
 @web.route('/test')
 def test():
     dictData = {
