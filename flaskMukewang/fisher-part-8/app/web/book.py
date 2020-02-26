@@ -21,6 +21,8 @@ from app.web import web
 4、requset在flask试图函数，上下文接收http请求的时候才有我们的预期对象，否则单机版则可能不是我们的预期对象。
     如：单单定义1个单机版函数 引用request，request可能是一个本地代理。
 '''
+
+# http://127.0.0.1:5000/book/search
 @web.route('/book/search')
 def search():
 
@@ -45,7 +47,7 @@ def search():
         else:
             yushubook.search_by_key(q,page)
 
-        books.fill(yushubook,q)
+        books.fill(q,yushubook)
         '''
         return jsonify(books.__dict__)
         不能直接序列化books对象 bookCollection下面的self.books是由其他对象赋值
@@ -67,7 +69,7 @@ def search():
         '''
         flash('关键字不符合要求，请重新输入')
 
-    return render_template('search_result.html', books=books)
+    return render_template('search_result.html', books = books)
 
 @web.route('/book/<isbn>/detail')
 def book_detail(isbn):
