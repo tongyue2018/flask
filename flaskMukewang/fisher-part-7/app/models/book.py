@@ -6,7 +6,7 @@
 # flask封装了sqlalchemy，Flask_ALchemy更加人性化
 # 安装lask_ALchemy：  pip install flask-sqlalchemy
 
-# WTFORMS也是第三方工具包 flask封装了WTFORMS，Flask_WTFORMS
+# WTFORMS也是第方工具包 flask封装了WTFORMS，Flask_WTFORMS
 from sqlalchemy import Column,Integer,String
 #映射到数据库导入 flask_sqlalchemy
 from flask_sqlalchemy import SQLAlchemy
