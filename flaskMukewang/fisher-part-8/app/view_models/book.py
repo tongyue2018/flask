@@ -9,13 +9,13 @@
 '''
 
 class BookViewModel:
-    def __init__(self,**book):
-        self.title = book['title'],
-        self.publisher = book['publisher'],
-        self.pages = book['pages'],
-        self.price = book['price'],
-        self.summary = book['summary'],
-        self.image = book.get('image'),
+    def __init__(self,book):
+        self.title = book['title']
+        self.publisher = book['publisher']
+        self.pages = book['pages']
+        self.price = book['price']
+        self.summary = book['summary']
+        self.image = book.get('image')
         self.author = book['author']
 
 class BookCollection:
@@ -27,7 +27,8 @@ class BookCollection:
     def fill(self,keyword,yushu_book):
         self.total = yushu_book.total
         self.keyword = keyword
-        self.books = [BookViewModel(**book)  for book in yushu_book.books]
+        # self.books = [BookViewModel(book)  for book in yushu_book.books]
+        self.books = [BookViewModel(book)  for book in yushu_book.books]
 
 
 #此处为反实例，并不是面向对象思想
