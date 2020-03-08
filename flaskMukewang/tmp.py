@@ -21,6 +21,3 @@ def readJson():
 
 def operateJson():
     pass
-
-
-
