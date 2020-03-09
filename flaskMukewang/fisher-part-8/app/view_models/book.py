@@ -16,7 +16,13 @@ class BookViewModel:
         self.price = book['price']
         self.summary = book['summary']
         self.image = book.get('image')
-        self.author = book['author']
+        self.author = ','.join(book['author'])
+
+    @property  #作为属性访问
+    def intro(self):
+        # 不为空则加入到list里面, 注意list里面传的都是字符串
+        intros = filter(lambda x: True if x else False,[self.author,self.publisher,self.price])
+        return (' / ').join(intros)
 
 class BookCollection:
     def __init__(self):

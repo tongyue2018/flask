@@ -68,7 +68,7 @@ def search():
         消息闪现
         '''
         flash('关键字不符合要求，请重新输入')
-    #form传入模板，可以再base中些，其他模板可以继承
+    #form传入模板以后 才可以在template页面中使用，可以再base中些，其他模板可以继承
     return render_template('search_result.html', books = books,form=form)
 
 @web.route('/book/<isbn>/detail')
