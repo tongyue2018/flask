@@ -1,0 +1,39 @@
+
+{#
+
+1. 模板继承layout.html
+2.http://127.0.0.1:5000/sub1
+3.填充到父html：写成和父html一样的区块即可{% block head %} {% endblock %}
+4.继承父html：子区块里面写{{ super() }}
+#}
+
+{% extends 'layout.html' %}
+
+{% block head %}
+    {{ super() }}
+    {% if data.age == 19 %}
+            找到了19的人：{{ data.name }}
+            <ul></ul> {# 可以控制标签是否展示 #}
+        {% elif data.age == 18 %}
+            找到了18的人：{{ data.name }}
+        {% else %}
+            他不是19随的人：{{ data.name }}
+    {% endif %}
+{% endblock %}
+
+
+{% block content %}
+    {{ super() }}
+    {% for foo in [{'name':'daniu','age':20},{'name':'xiaoniu','age':21},{'name':'haloTong','age':22}] %}
+            {{ foo.name }}--{{ foo.age }}
+            <div></div>
+    {% endfor %}
+{% endblock %}
+
+
+{% block foot %}
+    {{ super() }}
+    {% for key,value in data.items() %}
+            {{ key }}--{{ value }}
+    {% endfor %}
+{% endblock %}
