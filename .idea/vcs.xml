@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../pythonSpider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pythonStudy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../python_study" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../studyDocument" vcs="Git" />
   </component>

@@ -15,18 +15,8 @@
 > * 8-12 页面结构解析
 
 
-1.Jinjia2模板引擎语言 用来给html渲染数据
-![](markdownImg/Jinjia2.png)
-
-2. Jinjia2过滤器
-![](markdownImg/filters.png)
+1.书记详情
+![](markdownImg/book-detail.png)
 
 
-3.消息闪现
-![](markdownImg/flash-init.png)
 
-![](markdownImg/flash-get.png)
-
-![](markdownImg/flash-secure.png)
-
-.Jinjia2循环等见demo
