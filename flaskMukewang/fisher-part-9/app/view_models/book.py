@@ -17,6 +17,7 @@ class BookViewModel:
         self.summary = book['summary']
         self.image = book.get('image')
         self.author = ','.join(book['author'])
+        self.isbn = book['isbn']
 
     @property  #作为属性访问
     def intro(self):

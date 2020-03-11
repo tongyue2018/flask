@@ -37,6 +37,9 @@ class YuShuBook:
     def calculate_start(self, page):
         return (page - 1) * current_app.config['PER_PAGE']
 
+    @property  #取出单本书记，books下只有1个book
+    def firstBook(self):
+        return self.books[0] if self.total >= 1 else None
 
 '''
 1.区分配置文件,PER_PAGE从配置文件setting.py中读取
