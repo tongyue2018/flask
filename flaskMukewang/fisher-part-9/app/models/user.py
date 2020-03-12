@@ -7,7 +7,7 @@
 # 安装lask_ALchemy：  pip install flask-sqlalchemy
 
 # WTFORMS也是第三方工具包 flask封装了WTFORMS，Flask_WTFORMS
-from sqlalchemy import Column,Integer,String
+from sqlalchemy import Column,Integer,String,Boolean,Float
 #映射到数据库导入 flask_sqlalchemy
 
 from app.models.base import db
@@ -25,20 +25,19 @@ ORM：数据库操作
 '''
 
 '''模型类 需要继承db.Model'''
-class Book(db.Model):
-    id = Column(Integer,primary_key=True,autoincrement=True) #自增长 主key
-    title = Column(String(50),nullable=False) #是否可空
-    author = Column(String(30),nullable=True)
-    binding = Column(String(20)) #平装 or 精装
-    publisher = Column(String(50))
-    price = Column(String(20))
-    pages = Column(Integer)
-    pubdate = Column(String(20))
-    isbn = Column(String(15),nullable=False,unique=True)#唯一约束
-    summary = Column(String(1000))
-    image = Column(String(50))
+class User(db.Model):
+    id = Column(Integer,primary_key=True)
+    nickname = Column(String(24),nullable=False)
+    phone_number = Column(String(18),unique=True)
+    email = Column(String(50),unique=True,nullable=False)
+    confirmed = Column(Boolean,default=False)
+    beans = Column(Float,default=0)
+    send_counter = Column(Integer,default=0)
+    receive_counter = Column(Integer,default=0)
+    wx_open_id = Column(String(50))
+    wx_name = Column(String(50))
 
-    def sample(self):
-        pass
+
+
 
 
