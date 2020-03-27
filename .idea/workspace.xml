@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="nohup">
-      <change beforePath="$PROJECT_DIR$/.idea/flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/models/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/models/gift.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/models/gift.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/web/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/web/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/fisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/fisher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../studyDocument/.idea/studyDocument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../studyDocument/.idea/studyDocument.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue-study-start/vue-study-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-study-start/vue-study-start.iml" afterDir="false" />
@@ -252,13 +250,6 @@
       <workItem from="1582705852315" duration="3186000" />
       <workItem from="1582876641852" duration="4078000" />
       <workItem from="1584364323814" duration="8000" />
-    </task>
-    <task id="LOCAL-00090" summary="nohup">
-      <created>1581039332557</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1581039332559</updated>
     </task>
     <task id="LOCAL-00091" summary="nohup">
       <created>1581040780804</created>
@@ -596,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583744163464</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="nohup">
+      <created>1585323646077</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1585323646077</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,9 +689,10 @@
       <screen x="0" y="23" width="1280" height="736" />
     </state>
     <state x="363" y="236" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1280.736@0.23.1280.736" timestamp="1583291762766" />
-    <state x="261" y="23" key="CommitChangelistDialog2" timestamp="1583744161055">
-      <screen x="0" y="23" width="1280" height="738" />
+    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1585323643937">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585323643937" />
     <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.732@0.23.1280.732" timestamp="1583742967324" />
     <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.738@0.23.1280.738" timestamp="1583744161055" />
     <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.741@0.23.1280.741" timestamp="1583742636973" />
@@ -791,9 +790,10 @@
     <state x="41" y="36" key="SettingsEditor/0.23.1280.735@0.23.1280.735" timestamp="1583300145650" />
     <state x="41" y="36" key="SettingsEditor/0.23.1280.736@0.23.1280.736" timestamp="1583299927521" />
     <state x="311" y="102" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1577006580264" />
-    <state x="267" y="178" key="Vcs.Push.Dialog.v2" timestamp="1583744165660">
-      <screen x="0" y="23" width="1280" height="738" />
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1585323647753">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585323647753" />
     <state x="267" y="177" key="Vcs.Push.Dialog.v2/0.23.1280.732@0.23.1280.732" timestamp="1583742970899" />
     <state x="267" y="178" key="Vcs.Push.Dialog.v2/0.23.1280.738@0.23.1280.738" timestamp="1583744165660" />
     <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1577862575325" />
