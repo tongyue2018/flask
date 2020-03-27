@@ -3,7 +3,7 @@
 from sqlalchemy.orm import relationship
 
 from app.models.base import db
-from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
+from sqlalchemy import Column, Integer, String, Boolean, ForeignKey, SmallInteger
 
 
 class Gift(db.Model):
@@ -16,4 +16,5 @@ class Gift(db.Model):
     # book = relationship('Book')
     # bid = Column(Integer, ForeignKey("book.id"))
     isbn = Column(String(15),nullable=False)#唯一约束需要去掉
+    # status = Column(SmallInteger,1)#表示删除，这个继承基类模型
 
