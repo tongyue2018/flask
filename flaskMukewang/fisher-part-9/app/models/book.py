@@ -40,5 +40,3 @@ class Book(db.Model):
 
     def sample(self):
         pass
-
-
