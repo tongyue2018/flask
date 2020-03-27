@@ -10,7 +10,7 @@
 from sqlalchemy import Column,Integer,String,Boolean,Float
 #映射到数据库导入 flask_sqlalchemy
 
-from app.models.base import db
+from app.models.base import db, Base
 
 '''
 注意：
@@ -25,7 +25,7 @@ ORM：数据库操作
 '''
 
 '''模型类 需要继承db.Model'''
-class User(db.Model):
+class User(Base):
     id = Column(Integer,primary_key=True)
     nickname = Column(String(24),nullable=False)
     phone_number = Column(String(18),unique=True)

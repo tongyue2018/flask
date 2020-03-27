@@ -1,14 +1,17 @@
 # @Time : 2020/3/12 上午9:29 
 # @Author : tongyue
 
-from sqlalchemy.orm import relationship
-from app.models.base import db
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey, SmallInteger
 
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-class Base():
+class Base(db.Model): #Base继承了base.Model，所以models/book.py等模型继承Base，就是继承了base.Model
+
+    # 我们想创建一个基类，让其他的表继承于它，但是我们又不希望基类创建成表，则在基类里面添加
+    # __abstract__ = True
+    __abstract__ = True
+
     create_time = Column('create_time',Integer)
-    status = Column(SmallInteger)
+    status = Column(SmallInteger,default=1) #0表示已删除
