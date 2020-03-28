@@ -9,8 +9,10 @@
 # WTFORMS也是第三方工具包 flask封装了WTFORMS，Flask_WTFORMS
 from sqlalchemy import Column,Integer,String,Boolean,Float
 #映射到数据库导入 flask_sqlalchemy
+from werkzeug.security import generate_password_hash,check_password_hash
 
 from app.models.base import db, Base
+from flask_login import UserMixin
 
 '''
 注意：
@@ -25,7 +27,8 @@ ORM：数据库操作
 '''
 
 '''模型类 需要继承db.Model'''
-class User(Base):
+class User(Base,UserMixin):
+    # __tablename__='user1' 可以指定表名，否则取class后面的User
     id = Column(Integer,primary_key=True)
     nickname = Column(String(24),nullable=False)
     phone_number = Column(String(18),unique=True)
@@ -36,8 +39,22 @@ class User(Base):
     receive_counter = Column(Integer,default=0)
     wx_open_id = Column(String(50))
     wx_name = Column(String(50))
+    _password = Column('password',String(128) ,nullable=False)  #对应数据库名字 password
 
 
+#   以下2个是属性预处理  自动处理
+    @property
+    def password(self):
+        return self._password
 
+    @password.setter #属性装饰器 password.setter的password为属性名称
+    def password(self,raw): #raw是password属性传入的值
+        self._password = generate_password_hash(raw)
 
+    def check_password(self,passw):
+        return check_password_hash(self._password,passw) #passw是明文密码，函数会将它加密再和数据库密码做比较
+
+    #flask-login login_user将信息存入cookie，以模型中的get_id为标准写入对应的数据
+    def get_id(self):
+        return self.id
 

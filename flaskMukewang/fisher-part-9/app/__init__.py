@@ -2,14 +2,23 @@
 # @Author : tongyue
 
 from flask import Flask
+from flask_login import LoginManager
 # from app.web.book import web 改成如下
 from app.web import web
-
 from app.models.book import db
+from app.models.user import User
+
+login_manager = LoginManager() #创建login_manager ，保存cookie需要在场景中导入flask_login的 login_user
+
+@login_manager.user_loader
+def load_user(user_id):
+    user = db.session.query(User).get(user_id)
+    return user
 
 def create_app():
     app = Flask(__name__)
     register_blueprint(app)
+    login_manager.init_app(app) #初始化login_manager
     '''
     初始化配置文件
     统一flask的app对象管理

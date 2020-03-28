@@ -15,3 +15,9 @@ class Base(db.Model): #Base继承了base.Model，所以models/book.py等模型�
 
     create_time = Column('create_time',Integer)
     status = Column(SmallInteger,default=1) #0表示已删除
+
+    #子类可以继承，用来给注册新信息赋值（用户名 密码 邮箱等等）
+    def set_attrs(self,attrs_dict):
+        for key,value in attrs_dict.items():
+            if hasattr(self,key) and key != 'id':
+                setattr(self,key,value)

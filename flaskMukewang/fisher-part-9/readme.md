@@ -24,3 +24,18 @@
 
 2.思维导图
 ![](markdownImg/siweidaotu.png)
+
+3.属性的get set方法研究
+ @property
+    def password(self):
+        return self._password
+
+    @password.setter #属性装饰器
+    def password(self,raw):
+        self._password = generate_password_hash(raw)
+4.hasattr和setattr研究
+子类可以继承，用来给注册新信息赋值（用户名 密码 邮箱等等）
+    def set_attrs(self,attrs_dict):
+        for key,value in attrs_dict.items():
+            if hasattr(self,key) and key != 'id':
+                setattr(self,key,value)
