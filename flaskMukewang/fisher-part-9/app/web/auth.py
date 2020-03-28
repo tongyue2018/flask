@@ -31,8 +31,8 @@ def login():
         if user and user.check_password(form.password.data):
             login_user(user,remember=True) #True表示存入的Cookie是持续性的cookie 默认365天，不写则是一次性的
             next = request.args.get("next")
-            if not next and not next.startwith('/'):
-                redirect(url_for('web.index'))
+            if  not next or not next.startwith('/'):
+                next = url_for('web.index')
             return redirect(next)  #一定要return才能结束掉这个试图函数
 
             # flask-login login_user将信息存入cookie，以模型中的get_id为标准写入对应的数据，user模型中定义函数如下：
