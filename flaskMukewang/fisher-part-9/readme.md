@@ -39,3 +39,5 @@
         for key,value in attrs_dict.items():
             if hasattr(self,key) and key != 'id':
                 setattr(self,key,value)
+5.flask操作数据库 orm
+https://blog.csdn.net/langdei/article/details/102574067
