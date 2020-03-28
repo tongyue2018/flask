@@ -19,7 +19,7 @@ def register():
         #user模型写入数据库  orm思想操作数据库
         db.session.add(user)
         db.session.commit()
-        redirect(url_for('web.login'))
+        return redirect(url_for('web.login')) #一定要return才能结束掉这个试图函数
     return render_template('auth/register.html',form=form); #form包含了错误信息和输入信息，输入错误以后可以提示，还可以保存用户输入的信息
 
 
@@ -30,6 +30,10 @@ def login():
         user = User.query.filter_by(email=form.email.data).first()
         if user and user.check_password(form.password.data):
             login_user(user,remember=True) #True表示存入的Cookie是持续性的cookie 默认365天，不写则是一次性的
+            next = request.args.get("next")
+            if not next and not next.startwith('/'):
+                redirect(url_for('web.index'))
+            return redirect(next)  #一定要return才能结束掉这个试图函数
 
             # flask-login login_user将信息存入cookie，以模型中的get_id为标准写入对应的数据，user模型中定义函数如下：
             # def get_id(self):

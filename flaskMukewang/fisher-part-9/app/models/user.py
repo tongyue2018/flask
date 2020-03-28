@@ -13,10 +13,10 @@ from werkzeug.security import generate_password_hash,check_password_hash
 
 from app.models.base import db, Base
 from flask_login import UserMixin
-
+from app import login_manager
 '''
 注意：
-1.基础的Column,Integer,String是从sqlalchemy中导入的
+1.基础的Column,Integer,.tring是从sqlalchemy中导入的
 2.映射到数据库SQLAlchemy,是从flask_sqlalchemy中导入的
 3.sqlalchemy支持多数据库  分布式数据库
 '''
@@ -58,3 +58,7 @@ class User(Base,UserMixin):
     def get_id(self):
         return self.id
 
+#获取用户的模型
+@login_manager.user_loader  #login_manager是app中自己初始化的
+def get_user(uid):
+    User.query.get(int(uid))
