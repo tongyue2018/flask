@@ -10,7 +10,7 @@ from flask_login import login_required
 #     User.query.get(int(uid))
 
 @web.route('/my/gifts')
-@login_required  #需要登录以后才能访问,要放到route的下面
+@login_required  #需要登录以后才能访问,要放到route的下面，使用login_required 需要在User中定义1个函数，
 def my_gifts():
     return "my gifts"
 

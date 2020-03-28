@@ -3,7 +3,7 @@
 
 from flask import Flask
 from flask_login import LoginManager
-login_manager = LoginManager() #创建login_manager ，保存cookie需要在场景中导入flask_login的 login_user
+login_manager = LoginManager() #创建login_manager ，保存cookie，需要在场景中导入flask_login的 login_user
 
 
 # from app.web.book import web 改成如下

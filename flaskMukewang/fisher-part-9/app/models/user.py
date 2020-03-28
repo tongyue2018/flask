@@ -58,7 +58,7 @@ class User(Base,UserMixin):
     def get_id(self):
         return self.id
 
-#获取用户的模型
+#获取用户的模型， 访问权限用到，视图函数中加入@login_required ，它需要这个函数
 @login_manager.user_loader  #login_manager是app中自己初始化的
 def get_user(uid):
     User.query.get(int(uid))
