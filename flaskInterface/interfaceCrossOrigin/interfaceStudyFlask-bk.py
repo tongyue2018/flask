@@ -4,7 +4,7 @@ from flask import make_response
 from flask_cors import CORS, cross_origin
 
 
-# sys.path.append('E:\\pythonProject\\python_study\\python初学\\初学(2)')
+# sys.path.append('E:\\pythonProject\\python_study\\pythonStart\\初学(2)')
 sys.path.append('./') #效果和上面绝对路径一致
 
 from flask import Flask, request
@@ -23,13 +23,13 @@ def start():
 @app.route("/regist", methods=["GET", "POST","OPTIONS"])
 # @cross_origin()##方法二：局部配置跨域
 def regist():
-    username = "form表单 post请求---"+str(request.form.get('username'))
-    passwd = "form表单 post请求---"+str(request.form.get('passwd'))
+    username = "form表单 post请求---"+str(request.form.getBookInfo('username'))
+    passwd = "form表单 post请求---"+str(request.form.getBookInfo('passwd'))
 
-    if(request.form.get('username') == None or request.form.get('passwd') == None) : #判断get post 2种方式，第一种如上/login，第二种如下都获取一遍
-        username = "form表单 get请求---"+str(request.args.get('username'))
-        passwd = "form表单 get请求---"+str(request.args.get('passwd'))
-    headerName = request.headers.get('headerName') #获取header中字段值
+    if(request.form.getBookInfo('username') == None or request.form.getBookInfo('passwd') == None) : #判断get post 2种方式，第一种如上/login，第二种如下都获取一遍
+        username = "form表单 get请求---"+str(request.args.getBookInfo('username'))
+        passwd = "form表单 get请求---"+str(request.args.getBookInfo('passwd'))
+    headerName = request.headers.getBookInfo('headerName') #获取header中字段值
     jsonContent = request.get_json(silent=True)  #获取json整体入参（一般放到body中），如果body中传递的是表单则获取方式还是request.form.get或者request.args.get
     dict = {
         'username': username,
