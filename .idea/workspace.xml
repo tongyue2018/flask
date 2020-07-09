@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed331af-03e5-492f-bdd9-01f2779a5f1e" name="Default Changelist" comment="nohup">
+      <change beforePath="$PROJECT_DIR$/.idea/flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/web/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/app/web/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/fisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMukewang/fisher-part-9/fisher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../studyDocument/.idea/studyDocument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../studyDocument/.idea/studyDocument.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue-study-start/vue-study-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-study-start/vue-study-start.iml" afterDir="false" />
@@ -34,13 +36,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../html" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -61,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonAdvanced/json_usage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -70,7 +72,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/flaskMukewang" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -83,13 +85,6 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/flaskMukewang" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-8\app\web" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-8\app\templates" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-8\app\static" />
-      <recent name="E:\flask\flaskMukewang\fisher-part-8\markdownImg" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/flaskMukewang/fisher-part-9/markdownImg" />
       <recent name="E:\flask\flaskMukewang\fisher-part-8\markdownImg" />
@@ -97,22 +92,28 @@
       <recent name="E:\flask\flaskMukewang\test" />
       <recent name="E:\flask\flaskMukewang\fisher-part-5\markdownImg" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonAdvanced\json_usage" />
+      <recent name="E:\PythonAdvanced\join_usage" />
+      <recent name="E:\PythonAdvanced\advanced_function" />
+      <recent name="E:\PythonAdvanced\copy" />
+      <recent name="E:\PythonAdvanced\format_string" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.fisher (1)">
-    <configuration name="fisher (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="flask" />
+  <component name="RunManager" selected="Python.with_usage">
+    <configuration name="joinUsage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAdvanced" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskMukewang/fisher-part-9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonAdvanced/join_usage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskMukewang/fisher-part-9/fisher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonAdvanced/join_usage/joinUsage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,43 +122,104 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (flaskMukewang/fisher-part-8/fisher.py) (1)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
-      <module name="flask" />
-      <option name="target" value="$PROJECT_DIR$/flaskMukewang/fisher-part-8/fisher.py" />
-      <option name="targetType" value="PATH" />
+    <configuration name="json_read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAdvanced" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonAdvanced/json_usage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonAdvanced/json_usage/json_read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (flaskMukewang/fisher-part-8/fisher.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
-      <option name="flaskDebug" value="true" />
-      <module name="flask" />
-      <option name="target" value="$PROJECT_DIR$/flaskMukewang/fisher-part-8/fisher.py" />
-      <option name="targetType" value="PATH" />
+    <configuration name="json_write" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAdvanced" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonAdvanced/json_usage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonAdvanced/json_usage/json_write.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="thread_usage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAdvanced" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonAdvanced/threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonAdvanced/threading/thread_usage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="with_usage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAdvanced" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonAdvanced/with_usage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonAdvanced/with_usage/with_usage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.fisher (1)" />
+      <item itemvalue="Python.joinUsage" />
+      <item itemvalue="Python.json_write" />
+      <item itemvalue="Python.json_read" />
+      <item itemvalue="Python.thread_usage" />
+      <item itemvalue="Python.with_usage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fisher (1)" />
+        <item itemvalue="Python.with_usage" />
+        <item itemvalue="Python.thread_usage" />
+        <item itemvalue="Python.json_write" />
+        <item itemvalue="Python.json_read" />
+        <item itemvalue="Python.joinUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -250,69 +312,6 @@
       <workItem from="1582705852315" duration="3186000" />
       <workItem from="1582876641852" duration="4078000" />
       <workItem from="1584364323814" duration="8000" />
-    </task>
-    <task id="LOCAL-00091" summary="nohup">
-      <created>1581040780804</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1581040780804</updated>
-    </task>
-    <task id="LOCAL-00092" summary="nohup">
-      <created>1581041442564</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1581041442564</updated>
-    </task>
-    <task id="LOCAL-00093" summary="nohup">
-      <created>1581041787627</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1581041787627</updated>
-    </task>
-    <task id="LOCAL-00094" summary="nohup">
-      <created>1581041892944</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1581041892944</updated>
-    </task>
-    <task id="LOCAL-00095" summary="nohup">
-      <created>1581044789234</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1581044789234</updated>
-    </task>
-    <task id="LOCAL-00096" summary="nohup">
-      <created>1581045517170</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1581045517170</updated>
-    </task>
-    <task id="LOCAL-00097" summary="nohup">
-      <created>1581046018077</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1581046018077</updated>
-    </task>
-    <task id="LOCAL-00098" summary="nohup">
-      <created>1581059919984</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1581059919985</updated>
-    </task>
-    <task id="LOCAL-00099" summary="nohup">
-      <created>1581064998880</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1581064998880</updated>
     </task>
     <task id="LOCAL-00100" summary="nohup">
       <created>1581431854038</created>
@@ -594,7 +593,70 @@
       <option name="project" value="LOCAL" />
       <updated>1585323646077</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="nohup">
+      <created>1585324207118</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1585324207118</updated>
+    </task>
+    <task id="LOCAL-00141" summary="nohup">
+      <created>1585495466565</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1585495466566</updated>
+    </task>
+    <task id="LOCAL-00142" summary="nohup">
+      <created>1585497156305</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1585497156305</updated>
+    </task>
+    <task id="LOCAL-00143" summary="nohup">
+      <created>1585497473245</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1585497473245</updated>
+    </task>
+    <task id="LOCAL-00144" summary="nohup">
+      <created>1585498355458</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1585498355458</updated>
+    </task>
+    <task id="LOCAL-00145" summary="nohup">
+      <created>1585498646559</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1585498646560</updated>
+    </task>
+    <task id="LOCAL-00146" summary="nohup">
+      <created>1585498846907</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1585498846907</updated>
+    </task>
+    <task id="LOCAL-00147" summary="nohup">
+      <created>1585585497388</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1585585497389</updated>
+    </task>
+    <task id="LOCAL-00148" summary="nohup">
+      <created>1585585531084</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1585585531085</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,27 +751,35 @@
       <screen x="0" y="23" width="1280" height="736" />
     </state>
     <state x="363" y="236" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1280.736@0.23.1280.736" timestamp="1583291762766" />
-    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1585323643937">
+    <state x="477" y="0" key="#fisher_(1)" timestamp="1585463950306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585323643937" />
+    <state x="477" y="0" key="#fisher_(1)/0.0.1536.824@0.0.1536.824" timestamp="1585463950306" />
+    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1585585636038">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585585636038" />
     <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.732@0.23.1280.732" timestamp="1583742967324" />
     <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.738@0.23.1280.738" timestamp="1583744161055" />
     <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.741@0.23.1280.741" timestamp="1583742636973" />
     <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1577862572159" />
     <state x="294" y="54" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1577008592866" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585321681966">
+    <state x="147" y="49" key="DiffContextDialog" timestamp="1585462600986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585321681966" />
+    <state x="147" y="49" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1585462600986" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585324351271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585324351271" />
     <state x="118" y="190" key="FileDocumentManager.FileCacheConflict" timestamp="1577006659788">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="118" y="190" key="FileDocumentManager.FileCacheConflict/0.23.1440.826@0.23.1440.826" timestamp="1577006659788" />
-    <state width="1178" height="195" key="GridCell.Tab.0.bottom" timestamp="1585323535266">
+    <state width="1355" height="96" key="GridCell.Tab.0.bottom" timestamp="1585498886248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1178" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585323535266" />
+    <state width="1355" height="96" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585498886248" />
     <state width="1239" height="170" key="GridCell.Tab.0.bottom/0.23.1280.733@0.23.1280.733" timestamp="1583316392251" />
     <state width="1239" height="170" key="GridCell.Tab.0.bottom/0.23.1280.734@0.23.1280.734" timestamp="1583313848143" />
     <state width="1239" height="170" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1583744405323" />
@@ -718,10 +788,10 @@
     <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1577016101699" />
     <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577863017459" />
     <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1577863214497" />
-    <state width="1178" height="195" key="GridCell.Tab.0.center" timestamp="1585323535265">
+    <state width="1355" height="96" key="GridCell.Tab.0.center" timestamp="1585498886248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1178" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585323535265" />
+    <state width="1355" height="96" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585498886248" />
     <state width="1239" height="170" key="GridCell.Tab.0.center/0.23.1280.733@0.23.1280.733" timestamp="1583316392249" />
     <state width="1239" height="170" key="GridCell.Tab.0.center/0.23.1280.734@0.23.1280.734" timestamp="1583313848142" />
     <state width="1239" height="170" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1583744405322" />
@@ -730,10 +800,10 @@
     <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1577016101698" />
     <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577863017459" />
     <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1577863214497" />
-    <state width="1178" height="195" key="GridCell.Tab.0.left" timestamp="1585323535265">
+    <state width="1355" height="96" key="GridCell.Tab.0.left" timestamp="1585498886248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1178" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585323535265" />
+    <state width="1355" height="96" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585498886248" />
     <state width="1239" height="170" key="GridCell.Tab.0.left/0.23.1280.733@0.23.1280.733" timestamp="1583316392248" />
     <state width="1239" height="170" key="GridCell.Tab.0.left/0.23.1280.734@0.23.1280.734" timestamp="1583313848141" />
     <state width="1239" height="170" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1583744405321" />
@@ -742,10 +812,10 @@
     <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1577016101698" />
     <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577863017458" />
     <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1577863214496" />
-    <state width="1178" height="195" key="GridCell.Tab.0.right" timestamp="1585323535265">
+    <state width="1355" height="96" key="GridCell.Tab.0.right" timestamp="1585498886248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1178" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585323535265" />
+    <state width="1355" height="96" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585498886248" />
     <state width="1239" height="170" key="GridCell.Tab.0.right/0.23.1280.733@0.23.1280.733" timestamp="1583316392250" />
     <state width="1239" height="170" key="GridCell.Tab.0.right/0.23.1280.734@0.23.1280.734" timestamp="1583313848142" />
     <state width="1239" height="170" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1583744405322" />
@@ -754,46 +824,54 @@
     <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1577016101699" />
     <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577863017459" />
     <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1577863214497" />
-    <state width="837" height="242" key="GridCell.Tab.1.bottom" timestamp="1585322745139">
+    <state width="837" height="242" key="GridCell.Tab.1.bottom" timestamp="1585325004657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="837" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585322745139" />
+    <state width="837" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585325004657" />
     <state width="1239" height="212" key="GridCell.Tab.1.bottom/0.23.1280.740@0.23.1280.740" timestamp="1583742665330" />
     <state width="1239" height="212" key="GridCell.Tab.1.bottom/0.23.1280.741@0.23.1280.741" timestamp="1583742510793" />
     <state width="1358" height="249" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1577862853366" />
-    <state width="837" height="242" key="GridCell.Tab.1.center" timestamp="1585322745138">
+    <state width="837" height="242" key="GridCell.Tab.1.center" timestamp="1585325004656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="837" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585322745138" />
+    <state width="837" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585325004656" />
     <state width="1239" height="212" key="GridCell.Tab.1.center/0.23.1280.740@0.23.1280.740" timestamp="1583742665329" />
     <state width="1239" height="212" key="GridCell.Tab.1.center/0.23.1280.741@0.23.1280.741" timestamp="1583742510792" />
     <state width="1358" height="249" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1577862853366" />
-    <state width="837" height="242" key="GridCell.Tab.1.left" timestamp="1585322745138">
+    <state width="837" height="242" key="GridCell.Tab.1.left" timestamp="1585325004656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="837" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585322745138" />
+    <state width="837" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585325004656" />
     <state width="1239" height="212" key="GridCell.Tab.1.left/0.23.1280.740@0.23.1280.740" timestamp="1583742665329" />
     <state width="1239" height="212" key="GridCell.Tab.1.left/0.23.1280.741@0.23.1280.741" timestamp="1583742510792" />
     <state width="1358" height="249" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1577862853366" />
-    <state width="837" height="242" key="GridCell.Tab.1.right" timestamp="1585322745138">
+    <state width="837" height="242" key="GridCell.Tab.1.right" timestamp="1585325004657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="837" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585322745138" />
+    <state width="837" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585325004657" />
     <state width="1239" height="212" key="GridCell.Tab.1.right/0.23.1280.740@0.23.1280.740" timestamp="1583742665330" />
     <state width="1239" height="212" key="GridCell.Tab.1.right/0.23.1280.741@0.23.1280.741" timestamp="1583742510793" />
     <state width="1358" height="249" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1577862853366" />
-    <state x="485" y="30" width="996" height="713" key="SettingsEditor" timestamp="1585321676114">
+    <state x="620" y="118" key="RollbackChangesDialog" timestamp="1585463593287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="485" y="30" width="996" height="713" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585321676114" />
+    <state x="620" y="118" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585463593287" />
+    <state x="13" y="10" width="996" height="707" key="SettingsEditor" timestamp="1585584831761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="13" y="10" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585584831761" />
     <state x="41" y="34" key="SettingsEditor/0.23.1280.733@0.23.1280.733" timestamp="1583302009702" />
     <state x="41" y="36" key="SettingsEditor/0.23.1280.735@0.23.1280.735" timestamp="1583300145650" />
     <state x="41" y="36" key="SettingsEditor/0.23.1280.736@0.23.1280.736" timestamp="1583299927521" />
     <state x="311" y="102" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1577006580264" />
-    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1585323647753">
+    <state width="506" height="446" key="SwitcherDM" timestamp="1585496292785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585323647753" />
+    <state width="506" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1585496292785" />
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1585585532340">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585585532340" />
     <state x="267" y="177" key="Vcs.Push.Dialog.v2/0.23.1280.732@0.23.1280.732" timestamp="1583742970899" />
     <state x="267" y="178" key="Vcs.Push.Dialog.v2/0.23.1280.738@0.23.1280.738" timestamp="1583744165660" />
     <state x="300" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1577862575325" />
@@ -802,10 +880,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="454" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585321457668" />
-    <state x="390" y="204" key="git4idea.merge.GitPullDialog" timestamp="1585321732654">
+    <state x="447" y="0" width="642" height="801" key="find.popup" timestamp="1585497757895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="390" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1585321732654" />
+    <state x="447" y="0" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585497757895" />
+    <state x="556" y="187" key="git4idea.merge.GitMergeDialog" timestamp="1585462556145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="556" y="187" key="git4idea.merge.GitMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1585462556145" />
+    <state x="390" y="204" key="git4idea.merge.GitPullDialog" timestamp="1585583242892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="390" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1585583242892" />
     <state x="325" y="206" key="git4idea.merge.GitPullDialog/0.23.1280.740@0.23.1280.740" timestamp="1583736086725" />
     <state x="366" y="227" key="git4idea.merge.GitPullDialog/0.23.1440.825@0.23.1440.825" timestamp="1577001192179" />
     <state x="366" y="227" key="git4idea.merge.GitPullDialog/0.23.1440.826@0.23.1440.826" timestamp="1577861473601" />

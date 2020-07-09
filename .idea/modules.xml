@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PythonAdvanced/.idea/PythonAdvanced.iml" filepath="$PROJECT_DIR$/../PythonAdvanced/.idea/PythonAdvanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/flask.iml" filepath="$PROJECT_DIR$/.idea/flask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../html/.idea/html.iml" filepath="$PROJECT_DIR$/../html/.idea/html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_study/.idea/py_pyCharm.iml" filepath="$PROJECT_DIR$/../python_study/.idea/py_pyCharm.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pythonStudy/.idea/py_pyCharm1.iml" filepath="$PROJECT_DIR$/../pythonStudy/.idea/py_pyCharm1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" filepath="$PROJECT_DIR$/../pythonSpider/.idea/pythonSpider.iml" />
       <module fileurl="file://$PROJECT_DIR$/../studyDocument/.idea/studyDocument.iml" filepath="$PROJECT_DIR$/../studyDocument/.idea/studyDocument.iml" />
