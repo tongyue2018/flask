@@ -14,6 +14,5 @@ def create_app():
     app.register_blueprint(web)
     app.config.from_object('app.secure')
     app.config.from_object('app.setting')
-
     return app
 
