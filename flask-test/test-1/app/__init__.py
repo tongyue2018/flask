@@ -15,4 +15,3 @@ def create_app():
     app.config.from_object('app.secure')
     app.config.from_object('app.setting')
     return app
-
