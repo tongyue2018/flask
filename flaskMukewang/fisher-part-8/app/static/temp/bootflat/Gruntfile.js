@@ -104,8 +104,8 @@ module.exports = function(grunt) {
         failHard: true,
         reset: true,
         relaxerror: [
-          'Bad value apple-mobile-web-app-title for attribute name on element meta: Keyword apple-mobile-web-app-title is not registered.',
-          'Bad value apple-mobile-web-app-status-bar-style for attribute name on element meta: Keyword apple-mobile-web-app-status-bar-style is not registered.',
+          'Bad value apple-mobile-web1-app-title for attribute name on element meta: Keyword apple-mobile-web1-app-title is not registered.',
+          'Bad value apple-mobile-web1-app-status-bar-style for attribute name on element meta: Keyword apple-mobile-web1-app-status-bar-style is not registered.',
           'Bad value X-UA-Compatible for attribute http-equiv on element meta.',
           'Attribute ontouchstart not allowed on element body at this point.'
         ]

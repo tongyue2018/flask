@@ -7,7 +7,7 @@ from app.forms.book import SearchForm
 
 from app.web import web
 
-# @web.route进行注册
+# @web1.route进行注册
 # Request接收 “?”传参
 '''
 1、大部分框架在管理http请求都有Request Response对象

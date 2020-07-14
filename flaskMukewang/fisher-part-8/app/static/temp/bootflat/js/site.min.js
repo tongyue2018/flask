@@ -1,7 +1,7 @@
 /*
  * bootflat 2.0.4
  *
- * Description: BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.2.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
+ * Description: BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.2.0 CSS framework. It provides a faster, easier and less repetitive way for web1 developers to create elegant web1 apps.
  *
  * Homepage: http://bootflat.github.com/
  *

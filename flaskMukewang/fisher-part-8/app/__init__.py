@@ -2,7 +2,7 @@
 # @Author : tongyue
 
 from flask import Flask
-# from app.web.book import web 改成如下
+# from app.web1.book import web1 改成如下
 from app.web import web
 
 from app.models.book import db

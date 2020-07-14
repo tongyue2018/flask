@@ -6,7 +6,7 @@ from flask_login import LoginManager
 login_manager = LoginManager() #创建login_manager ，保存cookie，需要在场景中导入flask_login的 login_user
 
 
-# from app.web.book import web 改成如下
+# from app.web1.book import web1 改成如下
 from app.web import web
 from app.models.book import db
 from app.models.user import User
@@ -21,7 +21,7 @@ def create_app():
     app = Flask(__name__)
     register_blueprint(app)
     login_manager.init_app(app) #初始化login_manager
-    login_manager.login_view = 'web.login' #直接访问gifts会报错并且重定向到web.login，登录后在定位到gifts
+    login_manager.login_view = 'web1.login' #直接访问gifts会报错并且重定向到web.login，登录后在定位到gifts
     login_manager.login_message = "请先登录或者注册" #直接访问gifts没权限的自动flash闪现消息
 
     '''

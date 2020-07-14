@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圣杯布局</title>
+</head>
+<!--
+圣杯布局：三行三列布局
+
+
+-->
+
+<style>
+  /*给父级设置高度，否则子级都float，父级会有高度坍塌-*/
+    #parent{
+        height: 300px;
+        /*!*分别设置成和left和right的宽度一致*!*/
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    #left,#center,#right{
+        height: 300px;
+        float: left;
+    }
+    #left,#right{
+        width: 300px;
+    }
+    #left{
+        background-color: #c9394a;
+        /*向左移动父级宽度的100%，即可以移动到正上方*/
+        margin-left: -100%;
+        /*position配合left向左移动300像素*/
+        position: relative;
+        left: -300px;
+
+    }
+    #center{
+        /*表示和父级元素的宽度一致*/
+        width: 100%;
+        background-color: #cc74c9;
+    }
+    #right{
+        background-color: aqua;
+        /*第二行向左移动到末尾会自动漂浮到第一行 并且在center元素的末尾 覆盖了center元素右侧末尾一部分*/
+        margin-left: -300px;
+        /*position配合right向右移动300像素*/
+        position: relative;
+        right: -300px;
+    }
+</style>
+<body>
+<div>123</div>
+<div id="parent">
+    <div id="center"></div>
+    <div id="left"></div>
+    <div id="right"></div>
+</div>
+<div>456</div>
+
+</body>
+</html>

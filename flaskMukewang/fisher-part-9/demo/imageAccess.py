@@ -21,15 +21,15 @@ app = Flask(__name__,static_folder='view_models/statics'，static_url_path=)
 
 
 4.蓝图注册静态文件
-web = Blueprint('web', __name__,static_folder='view_models/statics'，static_url_path=)
+web1 = Blueprint('web1', __name__,static_folder='view_models/statics'，static_url_path=)
 
-默认在 根目录/web/static
+默认在 根目录/web1/static
 
 
 5.template_folder 指定应用模板文件夹位置，默认 app/templates
 app = Flask(__name__,template_folder=)
 
-web = Blueprint(),也可以在蓝图中， 默认是app/templates
+web1 = Blueprint(),也可以在蓝图中， 默认是app/templates
 
 '''
 
