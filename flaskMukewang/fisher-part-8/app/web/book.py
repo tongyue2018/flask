@@ -8,7 +8,7 @@ from app.view_models.book import BookViewModel
 from app.view_models.book import BookCollection
 from app.web import web
 
-# @web1.route进行注册
+# @web.route进行注册
 # Request接收 “?”传参
 '''
 1、大部分框架在管理http请求都有Request Response对象

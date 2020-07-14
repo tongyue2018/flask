@@ -4,7 +4,7 @@
 
 from app.web import web
 
-# @web1.route("/login")
+# @web.route("/login")
 # def login():
 #     pass
 

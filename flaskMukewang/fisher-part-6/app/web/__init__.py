@@ -5,8 +5,8 @@
 from flask import Blueprint
 
 # 蓝图机制 blueprint
-web = Blueprint('web1', __name__)
+web = Blueprint('web', __name__)
 
 
 from app.web import book
-# from app.web1 import user
+# from app.web import user
