@@ -7,7 +7,7 @@ login_manager = LoginManager() #创建login_manager ，保存cookie，需要在�
 
 
 # from app.web.book import web 改成如下
-from app.web1 import web
+from app.web import web
 
 def create_app():
     app = Flask(__name__)

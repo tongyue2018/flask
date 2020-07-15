@@ -8,4 +8,4 @@ from flask import Blueprint
 web = Blueprint('main', __name__)
 
 
-from app.web1 import book
+from app.web import book

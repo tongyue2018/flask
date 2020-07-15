@@ -1,7 +1,7 @@
 import json
 
 from flask import render_template,redirect,url_for
-from app.web1 import web
+from app.web import web
 
 # @web.route进行注册
 # Request接收 “?”传参
@@ -27,3 +27,6 @@ def search():
 def search2():
     return redirect(url_for('main.search'))
 
+@web.route('/book/search3/')
+def search3():
+    return (url_for('main.search3',name="abc"))
