@@ -10,7 +10,7 @@ from app import create_app
 
 # app的初始化可以放到__init__文件中，导包方式如：from app import create_app
 app = create_app()
-
+print("入口名称:"+__name__)
 if (__name__ == '__main__'):
     app.run(app.config['HOST'], 5000, debug=True,threaded=True)
 '''

@@ -11,6 +11,7 @@ from app.web import web
 
 def create_app():
     app = Flask(__name__)
+    print("app初始化名称:" + __name__)
     app.register_blueprint(web)
     app.config.from_object('app.secure')
     app.config.from_object('app.setting')

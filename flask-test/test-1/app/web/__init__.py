@@ -7,5 +7,5 @@ from flask import Blueprint
 # 蓝图机制 blueprint
 web = Blueprint('web', __name__)
 
-
+print("web初始化名称"+__name__)
 from app.web import book
