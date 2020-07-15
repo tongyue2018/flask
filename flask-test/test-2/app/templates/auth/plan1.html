@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圣杯布局</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='test.css')}}">
+</head>
+<!--
+双飞翼布局：优化圣杯布局使用了positon left right定位的问题
+
+
+-->
+
+<style>
+  /*给父级设置高度，否则子级都float，父级会有高度坍塌-*/
+    #parent{
+        height: 300px;
+    }
+
+    #left,#center,#right{
+        height: 300px;
+        float: left;
+    }
+    #left,#right{
+        width: 300px;
+    }
+    #left{
+        background-color: #c9394a;
+        /*向左移动父级宽度的100%，即可以移动到正上方*/
+        margin-left: -100%;
+
+    }
+    #center{
+        /*表示和父级元素的宽度一致*/
+        width: 100%;
+        background-color: #cc74c9;
+    }
+    #right{
+        background-color: aqua;
+        /*第二行向左移动到末尾会自动漂浮到第一行 并且在center元素的末尾 覆盖了center元素右侧末尾一部分*/
+        margin-left: -300px;
+
+    }
+    #inner{
+        height: 300px;
+        background-color: black;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+</style>
+<body>
+<div>123</div>
+<div id="parent">
+    <div id="center">
+<!--        双飞翼解决方案：在center里面加个div  使inner与两翼不重合即可,核心内容写在inner里面-->
+        <div id="inner"></div>
+    </div>
+    <div id="left"></div>
+    <div id="right"></div>
+</div>
+<div>456</div>
+
+</body>
+</html>
