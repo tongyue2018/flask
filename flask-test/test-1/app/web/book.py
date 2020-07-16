@@ -19,14 +19,14 @@ from app.web import web
 
 # http://127.0.0.1:5000/book/search
 # http://127.0.0.1:5000/static/flask_logo.jpg
-@web.route('/book/search')
-def search():
-    return render_template('auth/plan1.html')
+@web.route('/book/search/<name>')
+def search(name):
+    return render_template('auth/plan1.html',name=name)
 
 @web.route('/book/search2')
 def search2():
-    return redirect(url_for('main.search'))
+    return (url_for('main.search',name="bcd"))  # 返回/book/search/bcd
 
 @web.route('/book/search3/')
 def search3():
-    return (url_for('main.search3',name="abc"))
+    return (url_for('main.search2',name="abc")) #返回 /book/search2?name=abc
