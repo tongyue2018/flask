@@ -1,6 +1,6 @@
 import json
 
-from flask import render_template,redirect,url_for
+from flask import render_template,redirect,url_for,session
 from app.web import web
 
 # @web.route进行注册
@@ -21,11 +21,13 @@ from app.web import web
 # http://127.0.0.1:5000/static/flask_logo.jpg
 @web.route('/book/search/<name>')
 def search(name):
+    session['username'] = "tongyue"
+    print(session['username'])
     return render_template('auth/plan1.html',name=name)
 
 @web.route('/book/search2')
 def search2():
-    return (url_for('main.search',name="bcd"))  # 返回/book/search/bcd
+    return re(url_for('main.search',name="bcd"))  # 返回/book/search/bcd
 
 @web.route('/book/search3/')
 def search3():

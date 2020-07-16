@@ -1,7 +1,7 @@
 # @Time : 2020/2/4 18:11
 # @Author : tongyue
 
-from flask import Flask
+from flask import Flask,session
 from flask_login import LoginManager
 login_manager = LoginManager() #创建login_manager ，保存cookie，需要在场景中导入flask_login的 login_user
 
@@ -15,4 +15,5 @@ def create_app():
     app.register_blueprint(web)
     app.config.from_object('app.secure')
     app.config.from_object('app.setting')
+    app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
     return app
