@@ -27,7 +27,7 @@ def search(name):
 
 @web.route('/book/search2')
 def search2():
-    return re(url_for('main.search',name="bcd"))  # 返回/book/search/bcd
+    return (url_for('main.search',name="bcd"))  # 返回/book/search/bcd
 
 @web.route('/book/search3/')
 def search3():
