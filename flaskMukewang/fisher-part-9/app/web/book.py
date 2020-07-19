@@ -61,7 +61,7 @@ def search():
         '''
         form异常返回
         '''
-        # return form.errors
+        # return jsonify(form.errors)
         # return jsonify({"msg":"参数错误"})
 
         '''
