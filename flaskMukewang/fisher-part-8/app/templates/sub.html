@@ -13,9 +13,10 @@
     {{ super() }}
     {% if data.age == 19 %}
             找到了19的人：{{ data.name }}
-            <ul></ul> {# 可以控制标签是否展示 #}
+            <ul>ul</ul> {# 可以控制标签是否展示 #}
         {% elif data.age == 18 %}
             找到了18的人：{{ data.name }}
+         <ul>ul-18</ul> {# 可以控制标签是否展示 #}
         {% else %}
             他不是19随的人：{{ data.name }}
     {% endif %}
