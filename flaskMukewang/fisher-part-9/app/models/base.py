@@ -10,7 +10,7 @@ db = SQLAlchemy()
 class Base(db.Model): #Base继承了base.Model，所以models/book.py等模型继承Base，就是继承了base.Model
 
     # 我们想创建一个基类，让其他的表继承于它，但是我们又不希望基类创建成表，则在基类里面添加
-    # __abstract__ = True
+    # __abstract__ = True  这样基类就不用写主键了，否则报错
     __abstract__ = True
 
     create_time = Column('create_time',Integer)
