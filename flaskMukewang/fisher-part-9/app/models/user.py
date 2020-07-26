@@ -42,7 +42,7 @@ class User(Base,UserMixin):
     _password = Column('password',String(128) ,nullable=False)  #对应数据库名字 password
 
 
-#   以下2个是属性预处理  自动处理
+  # 以下2个是属性预处理  自动处理
     @property
     def password(self):
         return self._password
