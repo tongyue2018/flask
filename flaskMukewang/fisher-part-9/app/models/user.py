@@ -27,22 +27,22 @@ ORM：数据库操作
 '''
 
 '''模型类 需要继承db.Model'''
-class User(Base,UserMixin):
+
+class User(Base, UserMixin):
     # __tablename__='user1' 可以指定表名，否则取class后面的User
-    id = Column(Integer,primary_key=True)
-    nickname = Column(String(24),nullable=False)
-    phone_number = Column(String(18),unique=True)
-    email = Column(String(50),unique=True,nullable=False)
-    confirmed = Column(Boolean,default=False)
-    beans = Column(Float,default=0)
-    send_counter = Column(Integer,default=0)
-    receive_counter = Column(Integer,default=0)
+    id = Column(Integer, primary_key=True)
+    nickname = Column(String(24), nullable=False)
+    phone_number = Column(String(18), unique=True)
+    email = Column(String(50), unique=True, nullable=False)
+    confirmed = Column(Boolean, default=False)
+    beans = Column(Float, default=0)
+    send_counter = Column(Integer, default=0)
+    receive_counter = Column(Integer, default=0)
     wx_open_id = Column(String(50))
     wx_name = Column(String(50))
-    _password = Column('password',String(128) ,nullable=False)  #对应数据库名字 password
+    _password = Column('password', String(128), nullable=False)  # 对应数据库名字 password
 
-
-  # 以下2个是属性预处理  自动处理
+    # 以下2个是属性预处理  自动处理
     @property
     def password(self):
         return self._password
