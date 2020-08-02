@@ -1,0 +1,23 @@
+# @Time : 2020/3/12 上午9:28 
+# @Author : tongyue
+from sqlalchemy.orm import relationship
+
+from app.models.base import db, Base
+from sqlalchemy import Column, Integer, String, Boolean, ForeignKey, SmallInteger
+
+
+class Gift(Base): #Base继承了base.Model，所以models/gift.py等模型继承Base，就是继承了base.Model
+    id =Column(Integer,primary_key = True)
+    launched = Column(Boolean,default = False) #礼物是否送出
+    user = relationship('User')
+    uid = Column(Integer,ForeignKey("user.id"))# user.id  user取的上面的变量
+
+    #因为book不是放在数据库，是通过api获取的，所以不采用下面的方式。
+    # book = relationship('Book')
+    # bid = Column(Integer, ForeignKey("book.id"))
+
+    isbn = Column(String(15),nullable=False)#唯一约束需要去掉，gift下面isbn编号是有可能重复的
+    # status = Column(SmallInteger,1)#表示删除，这个通过继承基类模型来实现 即base.py
+
+
+

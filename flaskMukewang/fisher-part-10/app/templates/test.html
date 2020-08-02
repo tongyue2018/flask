@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+{#    以下方式static位置改变只有 引用地址都需要改变#}
+{#    <link rel="stylesheet" href="static/test.css">#}
+{#    http://127.0.0.1:5000/test
+
+
+url_for是通过endpoint反向构建url， static是静态文件目录名称  filename是引入文件的名称，
+使用不仅这一个场景 涉及到路径位置的比如图片等等都可以用，render_for不可以用 }}
+#}
+    <link rel="stylesheet" href="{{ url_for('static',filename='test.css') }}"/>
+</head>
+<body>
+
+{#
+
+1. Jinja2渲染和填充数据，是一个模板语言
+2. 对象和字典都可以用data.name 或者data['name']访问
+3. 推荐使用.
+
+4.http://127.0.0.1:5000/test
+
+#}
+    {{ data.name }} : {{ data.age }}
+</br>
+    {{ data['name'] }} : {{ data['age'] }}
+
+</br></br>
+
+    <div>---------if循环---------</div>
+    {% if data.age == 19 %}
+        找到了19的人：{{ data.name }}
+        <ul></ul> {# 可以控制标签是否展示 #}
+    {% elif data.age == 18 %}
+        找到了18的人：{{ data.name }}
+    {% else %}
+        他不是19随的人：{{ data.name }}
+    {% endif %}
+
+ <div>---------消息闪现 变量设置---------</div>
+</br></br>
+
+{#引用 视图函数中的消息闪现  视图函数中加入flash('内容')，secure.py中设置密钥SECRET_KEY，唯一字符串即可 #}
+    {% set messages = get_flashed_messages() %}
+    消息闪现: {{ messages }}
+
+</br></br>
+
+    <div>---------for循环遍历列表---------</div>
+    {% for foo in [{'name':'daniu','age':20},{'name':'xiaoniu','age':21}] %}
+        {{ foo.name }}--{{ foo.age }}
+        <div></div>
+    {% endfor %}
+
+</br></br>
+    <div>---------for循环遍历字典---------</div>
+    {% for key,value in data.items() %}
+        {{ key }}--{{ value }}
+    {% endfor %}
+
+</br></br>
+
+<div>---------defalt过滤器 render返回字符不存在的时候给默认值---------</div>
+    {{ data.school | default('默认value,school不存在') }}
+    {% for key,value in data.items() %}
+        {{ key }}--{{ value or '默认value'}}
+    {% endfor %}
+    长度：{{ data | length() }}
+
+</br></br>
+
+
+
+
+</body>
+</html>
