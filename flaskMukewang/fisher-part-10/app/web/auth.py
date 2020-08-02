@@ -33,6 +33,9 @@ def login():
             next = request.args.get("next")
             if  not next or not next.startwith('/'):
                 next = url_for('web.index')
+
+            # 其他页面访问权限需要登录，没有登录则重定向登录页面
+            # http://127.0.0.1:5000/my/gifts 跳转到 http://127.0.0.1:5000/login?next=%2Fmy%2Fgifts
             return redirect(next)  #一定要return才能结束掉这个试图函数
 
             # flask-login login_user将信息存入cookie，以模型中的get_id为标准写入对应的数据，user模型中定义函数如下：
